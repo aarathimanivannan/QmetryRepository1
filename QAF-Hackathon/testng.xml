@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Registeraccount">
+        <classes>
+            <class name="qaf.example.tests.TC001_QLO_Register" />
+        </classes>
+    </test>
+
+ 
+
+    <test name="Addproduct">
+        <classes>
+            <class name="qaf.example.tests.TC002_QLO_AddAddress" />
+        </classes>
+    </test>
+    
+     <test name="ORdercancel">
+        <classes>
+            <class name="qaf.example.tests.TC004_QLO_OrderCancel" />
+        </classes>
+    </test>
+    
+
+
+
+</suite> <!-- Suite -->

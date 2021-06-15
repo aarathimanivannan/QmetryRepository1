@@ -1,0 +1,1065 @@
+2021-06-10 16:38:41  [com.qmetry.qaf.automation.util.ExcelUtil] (main:) Rows : 2
+2021-06-10 16:38:41  [com.qmetry.qaf.automation.util.ExcelUtil] (main:) Columns : 28
+2021-06-10 16:38:41  [com.qmetry.qaf.automation.step.TestStepListener] (main:) Invoking Teststep: get {url} with arguments: [/]
+2021-06-10 16:38:41  [com.qmetry.qaf.automation.core.QAFTestBase] (main:) Initializing Driver...browser_str:chromeDriver,base_url:https://demo.qloapps.com/,sel_server:localhost,port:4444
+2021-06-10 16:38:41  [com.qmetry.qaf.automation.ui.UiDriverFactory] (main:) Driver: chromeDriver
+2021-06-10 16:38:58  [com.qmetry.qaf.automation.core.QAFTestBase] (main:) driver init done
+2021-06-10 16:38:58  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing get parameters: {"url":"https://demo.qloapps.com/"}
+2021-06-10 16:39:05  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: get[ param-1: {url=https://demo.qloapps.com/}] Result: null
+2021-06-10 16:39:05  [com.qmetry.qaf.automation.step.TestStepListener] (main:) Completed Teststep: get {url} with arguments: [/]
+2021-06-10 16:39:05  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing maximizeCurrentWindow parameters: {}
+2021-06-10 16:39:05  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: maximizeCurrentWindow[ param-1: {}] Result: {width=1616, x=-8, y=-8, height=876}
+2021-06-10 16:39:08  [com.qmetry.qaf.automation.step.TestStepListener] (main:) Invoking Teststep: click on {loc} with arguments: [SignIn]
+2021-06-10 16:39:09  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing findElement element: By.xpath: //span[@class='hide_xs'] parameters: {}
+2021-06-10 16:39:09  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing findElement parameters: {"value":"//span[@class='hide_xs']","using":"xpath"}
+2021-06-10 16:39:09  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: findElement[ param-1: {value=//span[@class='hide_xs'], using=xpath}] Result: id: 0.78183846894136-1
+2021-06-10 16:39:09  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: findElement[ param-1: By.xpath: //span[@class='hide_xs'] param-2: {}] Result: OK
+2021-06-10 16:39:09  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing clickElement element: By.xpath: //span[@class='hide_xs'] parameters: {"id":"0.78183846894136-1"}
+2021-06-10 16:39:13  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: clickElement[ param-1: By.xpath: //span[@class='hide_xs'] param-2: {"id":"0.78183846894136-1"}] Result: clickElement:null
+2021-06-10 16:39:13  [com.qmetry.qaf.automation.step.TestStepListener] (main:) Completed Teststep: click on {loc} with arguments: [SignIn]
+2021-06-10 16:39:15  [com.qmetry.qaf.automation.step.TestStepListener] (main:) Invoking Teststep: sendKeys {text} into {loc} with arguments: [aarathi91@gmail.com, emailaddress]
+2021-06-10 16:39:15  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing findElement element: By.xpath: //*[@id='email_create'] parameters: {}
+2021-06-10 16:39:15  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing findElement parameters: {"value":"//*[@id='email_create']","using":"xpath"}
+2021-06-10 16:39:15  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: findElement[ param-1: {value=//*[@id='email_create'], using=xpath}] Result: id: 0.6287940964897514-1
+2021-06-10 16:39:15  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: findElement[ param-1: By.xpath: //*[@id='email_create'] param-2: {}] Result: OK
+2021-06-10 16:39:15  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing sendKeysToElement element: By.xpath: //*[@id='email_create'] parameters: {"value":["aarathi91@gmail.com"],"id":"0.6287940964897514-1"}
+2021-06-10 16:39:15  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: sendKeysToElement[ param-1: By.xpath: //*[@id='email_create'] param-2: {"value":["aarathi91@gmail.com"],"id":"0.6287940964897514-1"}] Result: sendKeysToElement:null
+2021-06-10 16:39:15  [com.qmetry.qaf.automation.step.TestStepListener] (main:) Completed Teststep: sendKeys {text} into {loc} with arguments: [aarathi91@gmail.com, emailaddress]
+2021-06-10 16:39:17  [com.qmetry.qaf.automation.step.TestStepListener] (main:) Invoking Teststep: click on {loc} with arguments: [createaccount]
+2021-06-10 16:39:17  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing findElement element: By.xpath: //*[@id='SubmitCreate']/span/i parameters: {}
+2021-06-10 16:39:17  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing findElement parameters: {"value":"//*[@id='SubmitCreate']/span/i","using":"xpath"}
+2021-06-10 16:39:17  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: findElement[ param-1: {value=//*[@id='SubmitCreate']/span/i, using=xpath}] Result: id: 0.6287940964897514-3
+2021-06-10 16:39:17  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: findElement[ param-1: By.xpath: //*[@id='SubmitCreate']/span/i param-2: {}] Result: OK
+2021-06-10 16:39:17  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing clickElement element: By.xpath: //*[@id='SubmitCreate']/span/i parameters: {"id":"0.6287940964897514-3"}
+2021-06-10 16:39:17  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: clickElement[ param-1: By.xpath: //*[@id='SubmitCreate']/span/i param-2: {"id":"0.6287940964897514-3"}] Result: clickElement:null
+2021-06-10 16:39:17  [com.qmetry.qaf.automation.step.TestStepListener] (main:) Completed Teststep: click on {loc} with arguments: [createaccount]
+2021-06-10 16:39:19  [com.qmetry.qaf.automation.step.TestStepListener] (main:) Invoking Teststep: sendKeys {text} into {loc} with arguments: [Aarathi, Firstname]
+2021-06-10 16:39:19  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing findElement element: By.xpath: //*[@id='customer_firstname'] parameters: {}
+2021-06-10 16:39:19  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing findElement parameters: {"value":"//*[@id='customer_firstname']","using":"xpath"}
+2021-06-10 16:39:19  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: findElement[ param-1: {value=//*[@id='customer_firstname'], using=xpath}] Result: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='customer_firstname']"}
+  (Session info: chrome=91.0.4472.77)
+  (Driver info: chromedriver=90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}),platform=Windows NT 10.0.19042 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 30 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.0.0', revision: '350cf60', time: '2016-10-13 10:48:57 -0700'
+System info: host: 'DESKTOP-6BF1I8Q', ip: '192.168.29.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:58203}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, webauthn:extension:largeBlob=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}), userDataDir=C:\Users\91994\AppData\Local\Temp\scoped_dir25112_487844072}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=91.0.4472.77, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
+Session ID: 24d905d2c278e2e7dfb5000dc613f0a9
+*** Element info: {Using=xpath, value=//*[@id='customer_firstname']}
+2021-06-10 16:39:20  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing findElement parameters: {"value":"//*[@id='customer_firstname']","using":"xpath"}
+2021-06-10 16:39:20  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: findElement[ param-1: {value=//*[@id='customer_firstname'], using=xpath}] Result: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='customer_firstname']"}
+  (Session info: chrome=91.0.4472.77)
+  (Driver info: chromedriver=90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}),platform=Windows NT 10.0.19042 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 26 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.0.0', revision: '350cf60', time: '2016-10-13 10:48:57 -0700'
+System info: host: 'DESKTOP-6BF1I8Q', ip: '192.168.29.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:58203}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, webauthn:extension:largeBlob=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}), userDataDir=C:\Users\91994\AppData\Local\Temp\scoped_dir25112_487844072}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=91.0.4472.77, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
+Session ID: 24d905d2c278e2e7dfb5000dc613f0a9
+*** Element info: {Using=xpath, value=//*[@id='customer_firstname']}
+2021-06-10 16:39:21  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing findElement parameters: {"value":"//*[@id='customer_firstname']","using":"xpath"}
+2021-06-10 16:39:21  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: findElement[ param-1: {value=//*[@id='customer_firstname'], using=xpath}] Result: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='customer_firstname']"}
+  (Session info: chrome=91.0.4472.77)
+  (Driver info: chromedriver=90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}),platform=Windows NT 10.0.19042 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 15 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.0.0', revision: '350cf60', time: '2016-10-13 10:48:57 -0700'
+System info: host: 'DESKTOP-6BF1I8Q', ip: '192.168.29.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:58203}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, webauthn:extension:largeBlob=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}), userDataDir=C:\Users\91994\AppData\Local\Temp\scoped_dir25112_487844072}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=91.0.4472.77, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
+Session ID: 24d905d2c278e2e7dfb5000dc613f0a9
+*** Element info: {Using=xpath, value=//*[@id='customer_firstname']}
+2021-06-10 16:39:22  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing findElement parameters: {"value":"//*[@id='customer_firstname']","using":"xpath"}
+2021-06-10 16:39:22  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: findElement[ param-1: {value=//*[@id='customer_firstname'], using=xpath}] Result: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='customer_firstname']"}
+  (Session info: chrome=91.0.4472.77)
+  (Driver info: chromedriver=90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}),platform=Windows NT 10.0.19042 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 16 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.0.0', revision: '350cf60', time: '2016-10-13 10:48:57 -0700'
+System info: host: 'DESKTOP-6BF1I8Q', ip: '192.168.29.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:58203}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, webauthn:extension:largeBlob=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}), userDataDir=C:\Users\91994\AppData\Local\Temp\scoped_dir25112_487844072}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=91.0.4472.77, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
+Session ID: 24d905d2c278e2e7dfb5000dc613f0a9
+*** Element info: {Using=xpath, value=//*[@id='customer_firstname']}
+2021-06-10 16:39:23  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing findElement parameters: {"value":"//*[@id='customer_firstname']","using":"xpath"}
+2021-06-10 16:39:23  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: findElement[ param-1: {value=//*[@id='customer_firstname'], using=xpath}] Result: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='customer_firstname']"}
+  (Session info: chrome=91.0.4472.77)
+  (Driver info: chromedriver=90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}),platform=Windows NT 10.0.19042 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 21 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.0.0', revision: '350cf60', time: '2016-10-13 10:48:57 -0700'
+System info: host: 'DESKTOP-6BF1I8Q', ip: '192.168.29.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:58203}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, webauthn:extension:largeBlob=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}), userDataDir=C:\Users\91994\AppData\Local\Temp\scoped_dir25112_487844072}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=91.0.4472.77, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
+Session ID: 24d905d2c278e2e7dfb5000dc613f0a9
+*** Element info: {Using=xpath, value=//*[@id='customer_firstname']}
+2021-06-10 16:39:24  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing findElement parameters: {"value":"//*[@id='customer_firstname']","using":"xpath"}
+2021-06-10 16:39:25  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: findElement[ param-1: {value=//*[@id='customer_firstname'], using=xpath}] Result: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='customer_firstname']"}
+  (Session info: chrome=91.0.4472.77)
+  (Driver info: chromedriver=90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}),platform=Windows NT 10.0.19042 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 272 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.0.0', revision: '350cf60', time: '2016-10-13 10:48:57 -0700'
+System info: host: 'DESKTOP-6BF1I8Q', ip: '192.168.29.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:58203}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, webauthn:extension:largeBlob=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}), userDataDir=C:\Users\91994\AppData\Local\Temp\scoped_dir25112_487844072}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=91.0.4472.77, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
+Session ID: 24d905d2c278e2e7dfb5000dc613f0a9
+*** Element info: {Using=xpath, value=//*[@id='customer_firstname']}
+2021-06-10 16:39:26  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing findElement parameters: {"value":"//*[@id='customer_firstname']","using":"xpath"}
+2021-06-10 16:39:26  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: findElement[ param-1: {value=//*[@id='customer_firstname'], using=xpath}] Result: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='customer_firstname']"}
+  (Session info: chrome=91.0.4472.77)
+  (Driver info: chromedriver=90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}),platform=Windows NT 10.0.19042 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 14 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.0.0', revision: '350cf60', time: '2016-10-13 10:48:57 -0700'
+System info: host: 'DESKTOP-6BF1I8Q', ip: '192.168.29.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:58203}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, webauthn:extension:largeBlob=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}), userDataDir=C:\Users\91994\AppData\Local\Temp\scoped_dir25112_487844072}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=91.0.4472.77, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
+Session ID: 24d905d2c278e2e7dfb5000dc613f0a9
+*** Element info: {Using=xpath, value=//*[@id='customer_firstname']}
+2021-06-10 16:39:27  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing findElement parameters: {"value":"//*[@id='customer_firstname']","using":"xpath"}
+2021-06-10 16:39:27  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: findElement[ param-1: {value=//*[@id='customer_firstname'], using=xpath}] Result: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='customer_firstname']"}
+  (Session info: chrome=91.0.4472.77)
+  (Driver info: chromedriver=90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}),platform=Windows NT 10.0.19042 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 17 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.0.0', revision: '350cf60', time: '2016-10-13 10:48:57 -0700'
+System info: host: 'DESKTOP-6BF1I8Q', ip: '192.168.29.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:58203}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, webauthn:extension:largeBlob=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}), userDataDir=C:\Users\91994\AppData\Local\Temp\scoped_dir25112_487844072}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=91.0.4472.77, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
+Session ID: 24d905d2c278e2e7dfb5000dc613f0a9
+*** Element info: {Using=xpath, value=//*[@id='customer_firstname']}
+2021-06-10 16:39:28  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing findElement parameters: {"value":"//*[@id='customer_firstname']","using":"xpath"}
+2021-06-10 16:39:28  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: findElement[ param-1: {value=//*[@id='customer_firstname'], using=xpath}] Result: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='customer_firstname']"}
+  (Session info: chrome=91.0.4472.77)
+  (Driver info: chromedriver=90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}),platform=Windows NT 10.0.19042 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 15 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.0.0', revision: '350cf60', time: '2016-10-13 10:48:57 -0700'
+System info: host: 'DESKTOP-6BF1I8Q', ip: '192.168.29.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:58203}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, webauthn:extension:largeBlob=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}), userDataDir=C:\Users\91994\AppData\Local\Temp\scoped_dir25112_487844072}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=91.0.4472.77, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
+Session ID: 24d905d2c278e2e7dfb5000dc613f0a9
+*** Element info: {Using=xpath, value=//*[@id='customer_firstname']}
+2021-06-10 16:39:29  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing findElement parameters: {"value":"//*[@id='customer_firstname']","using":"xpath"}
+2021-06-10 16:39:29  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: findElement[ param-1: {value=//*[@id='customer_firstname'], using=xpath}] Result: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='customer_firstname']"}
+  (Session info: chrome=91.0.4472.77)
+  (Driver info: chromedriver=90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}),platform=Windows NT 10.0.19042 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 21 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.0.0', revision: '350cf60', time: '2016-10-13 10:48:57 -0700'
+System info: host: 'DESKTOP-6BF1I8Q', ip: '192.168.29.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:58203}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, webauthn:extension:largeBlob=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}), userDataDir=C:\Users\91994\AppData\Local\Temp\scoped_dir25112_487844072}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=91.0.4472.77, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
+Session ID: 24d905d2c278e2e7dfb5000dc613f0a9
+*** Element info: {Using=xpath, value=//*[@id='customer_firstname']}
+2021-06-10 16:39:30  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing findElement parameters: {"value":"//*[@id='customer_firstname']","using":"xpath"}
+2021-06-10 16:39:30  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: findElement[ param-1: {value=//*[@id='customer_firstname'], using=xpath}] Result: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='customer_firstname']"}
+  (Session info: chrome=91.0.4472.77)
+  (Driver info: chromedriver=90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}),platform=Windows NT 10.0.19042 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 13 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.0.0', revision: '350cf60', time: '2016-10-13 10:48:57 -0700'
+System info: host: 'DESKTOP-6BF1I8Q', ip: '192.168.29.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:58203}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, webauthn:extension:largeBlob=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}), userDataDir=C:\Users\91994\AppData\Local\Temp\scoped_dir25112_487844072}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=91.0.4472.77, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
+Session ID: 24d905d2c278e2e7dfb5000dc613f0a9
+*** Element info: {Using=xpath, value=//*[@id='customer_firstname']}
+2021-06-10 16:39:30  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: sendKeysToElement[ param-1: By.xpath: //*[@id='customer_firstname'] param-2: {"value":["Aarathi"],"id":"-1"}] Result: Timed out after 10 seconds waiting for presence of element located by: By.xpath: //*[@id='customer_firstname']
+Build info: version: '3.0.0', revision: '350cf60', time: '2016-10-13 10:48:57 -0700'
+System info: host: 'DESKTOP-6BF1I8Q', ip: '192.168.29.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: driver.version: QAFExtendedWebDriver
+2021-06-10 16:39:30  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing findElements parameters: {"value":"//*[@id='customer_firstname']","using":"xpath"}
+2021-06-10 16:39:30  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: findElements[ param-1: {value=//*[@id='customer_firstname'], using=xpath}] Result: []
+2021-06-10 16:39:30  [com.qmetry.qaf.automation.step.TestStepListener] (main:) Failure Teststep: sendKeys {text} into {loc} with arguments: [Aarathi, Firstname]
+com.qmetry.qaf.automation.step.JavaStepReporter$JPThrowable: org.openqa.selenium.TimeoutException: Timed out after 10 seconds waiting for presence of element located by: By.xpath: //*[@id='customer_firstname']
+Build info: version: '3.0.0', revision: '350cf60', time: '2016-10-13 10:48:57 -0700'
+System info: host: 'DESKTOP-6BF1I8Q', ip: '192.168.29.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: driver.version: QAFExtendedWebDriver
+	at com.qmetry.qaf.automation.step.JavaStepReporter$MockJavaStep.doExecute(JavaStepReporter.java:136)
+	at com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)
+	at com.qmetry.qaf.automation.step.JavaStepReporter.javaTestStep(JavaStepReporter.java:80)
+	at com.qmetry.qaf.automation.step.CommonStep.sendKeys(CommonStep.java:110)
+	at qaf.example.tests.TC001_QLO_Register.Register(TC001_QLO_Register.java:47)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.TimeoutException: Timed out after 10 seconds waiting for presence of element located by: By.xpath: //*[@id='customer_firstname']
+Build info: version: '3.0.0', revision: '350cf60', time: '2016-10-13 10:48:57 -0700'
+System info: host: 'DESKTOP-6BF1I8Q', ip: '192.168.29.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: driver.version: QAFExtendedWebDriver
+	at com.qmetry.qaf.automation.ui.util.DynamicWait.until(DynamicWait.java:168)
+	at com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.load(QAFExtendedWebDriver.java:213)
+	at com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebElement.load(QAFExtendedWebElement.java:302)
+	at com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebElement.execute(QAFExtendedWebElement.java:249)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:98)
+	at com.qmetry.qaf.automation.step.CommonStep.sendKeys_aroundBody6(CommonStep.java:111)
+	at com.qmetry.qaf.automation.step.CommonStep$AjcClosure7.run(CommonStep.java:1)
+	at org.aspectj.runtime.reflect.JoinPointImpl.proceed(JoinPointImpl.java:149)
+	at com.qmetry.qaf.automation.step.JavaStepReporter$MockJavaStep.doExecute(JavaStepReporter.java:130)
+	... 29 more
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='customer_firstname']"}
+  (Session info: chrome=91.0.4472.77)
+  (Driver info: chromedriver=90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}),platform=Windows NT 10.0.19042 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 13 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.0.0', revision: '350cf60', time: '2016-10-13 10:48:57 -0700'
+System info: host: 'DESKTOP-6BF1I8Q', ip: '192.168.29.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:58203}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, webauthn:extension:largeBlob=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}), userDataDir=C:\Users\91994\AppData\Local\Temp\scoped_dir25112_487844072}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=91.0.4472.77, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
+Session ID: 24d905d2c278e2e7dfb5000dc613f0a9
+*** Element info: {Using=xpath, value=//*[@id='customer_firstname']}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)
+	at com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.execute(QAFExtendedWebDriver.java:233)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:473)
+	at com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.findElementByXPath(QAFExtendedWebDriver.java:396)
+	at com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.findElementByXPath(QAFExtendedWebDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
+	at com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.findElement(QAFExtendedWebDriver.java:169)
+	at com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.findElement(QAFExtendedWebDriver.java:1)
+	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:895)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:41)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:181)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:178)
+	at com.qmetry.qaf.automation.ui.util.DynamicWait.until(DynamicWait.java:147)
+	... 37 more
+2021-06-10 16:39:30  [com.qmetry.qaf.automation.step.TestStepListener] (main:) Completed Teststep: sendKeys {text} into {loc} with arguments: [Aarathi, Firstname]
+2021-06-10 16:39:30  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing screenshot parameters: {}
+2021-06-10 16:39:30  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing quit parameters: {}
+2021-06-10 16:39:31  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: quit[ param-1: {}] Result: null
+2021-06-10 16:39:31  [com.qmetry.qaf.automation.ui.UiDriverFactory] (main:) UI-driver tear down complete...
+2021-06-10 16:39:32  [com.qmetry.qaf.automation.ui.webdriver.ChromeDriverHelper] (Thread-0:) Stopping chrome driver service.
+2021-06-10 16:41:45  [com.qmetry.qaf.automation.util.ExcelUtil] (main:) Rows : 2
+2021-06-10 16:41:45  [com.qmetry.qaf.automation.util.ExcelUtil] (main:) Columns : 28
+2021-06-10 16:41:45  [com.qmetry.qaf.automation.step.TestStepListener] (main:) Invoking Teststep: get {url} with arguments: [/]
+2021-06-10 16:41:45  [com.qmetry.qaf.automation.core.QAFTestBase] (main:) Initializing Driver...browser_str:chromeDriver,base_url:https://demo.qloapps.com/,sel_server:localhost,port:4444
+2021-06-10 16:41:45  [com.qmetry.qaf.automation.ui.UiDriverFactory] (main:) Driver: chromeDriver
+2021-06-10 16:41:51  [com.qmetry.qaf.automation.core.QAFTestBase] (main:) driver init done
+2021-06-10 16:41:51  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing get parameters: {"url":"https://demo.qloapps.com/"}
+2021-06-10 16:41:59  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: get[ param-1: {url=https://demo.qloapps.com/}] Result: null
+2021-06-10 16:41:59  [com.qmetry.qaf.automation.step.TestStepListener] (main:) Completed Teststep: get {url} with arguments: [/]
+2021-06-10 16:41:59  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing maximizeCurrentWindow parameters: {}
+2021-06-10 16:41:59  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: maximizeCurrentWindow[ param-1: {}] Result: {width=1616, x=-8, y=-8, height=876}
+2021-06-10 16:42:02  [com.qmetry.qaf.automation.step.TestStepListener] (main:) Invoking Teststep: click on {loc} with arguments: [SignIn]
+2021-06-10 16:42:02  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing findElement element: By.xpath: //span[@class='hide_xs'] parameters: {}
+2021-06-10 16:42:02  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing findElement parameters: {"value":"//span[@class='hide_xs']","using":"xpath"}
+2021-06-10 16:42:02  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: findElement[ param-1: {value=//span[@class='hide_xs'], using=xpath}] Result: id: 0.8367681255903954-1
+2021-06-10 16:42:02  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: findElement[ param-1: By.xpath: //span[@class='hide_xs'] param-2: {}] Result: OK
+2021-06-10 16:42:02  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing clickElement element: By.xpath: //span[@class='hide_xs'] parameters: {"id":"0.8367681255903954-1"}
+2021-06-10 16:42:05  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: clickElement[ param-1: By.xpath: //span[@class='hide_xs'] param-2: {"id":"0.8367681255903954-1"}] Result: clickElement:null
+2021-06-10 16:42:05  [com.qmetry.qaf.automation.step.TestStepListener] (main:) Completed Teststep: click on {loc} with arguments: [SignIn]
+2021-06-10 16:42:07  [com.qmetry.qaf.automation.step.TestStepListener] (main:) Invoking Teststep: sendKeys {text} into {loc} with arguments: [aarathinm@gmail.com, emailaddress]
+2021-06-10 16:42:07  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing findElement element: By.xpath: //*[@id='email_create'] parameters: {}
+2021-06-10 16:42:07  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing findElement parameters: {"value":"//*[@id='email_create']","using":"xpath"}
+2021-06-10 16:42:07  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: findElement[ param-1: {value=//*[@id='email_create'], using=xpath}] Result: id: 0.05903655846799549-1
+2021-06-10 16:42:07  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: findElement[ param-1: By.xpath: //*[@id='email_create'] param-2: {}] Result: OK
+2021-06-10 16:42:07  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing sendKeysToElement element: By.xpath: //*[@id='email_create'] parameters: {"value":["aarathinm@gmail.com"],"id":"0.05903655846799549-1"}
+2021-06-10 16:42:07  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: sendKeysToElement[ param-1: By.xpath: //*[@id='email_create'] param-2: {"value":["aarathinm@gmail.com"],"id":"0.05903655846799549-1"}] Result: sendKeysToElement:null
+2021-06-10 16:42:07  [com.qmetry.qaf.automation.step.TestStepListener] (main:) Completed Teststep: sendKeys {text} into {loc} with arguments: [aarathinm@gmail.com, emailaddress]
+2021-06-10 16:42:09  [com.qmetry.qaf.automation.step.TestStepListener] (main:) Invoking Teststep: click on {loc} with arguments: [createaccount]
+2021-06-10 16:42:09  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing findElement element: By.xpath: //*[@id='SubmitCreate']/span/i parameters: {}
+2021-06-10 16:42:09  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing findElement parameters: {"value":"//*[@id='SubmitCreate']/span/i","using":"xpath"}
+2021-06-10 16:42:09  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: findElement[ param-1: {value=//*[@id='SubmitCreate']/span/i, using=xpath}] Result: id: 0.05903655846799549-3
+2021-06-10 16:42:09  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: findElement[ param-1: By.xpath: //*[@id='SubmitCreate']/span/i param-2: {}] Result: OK
+2021-06-10 16:42:09  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing clickElement element: By.xpath: //*[@id='SubmitCreate']/span/i parameters: {"id":"0.05903655846799549-3"}
+2021-06-10 16:42:09  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: clickElement[ param-1: By.xpath: //*[@id='SubmitCreate']/span/i param-2: {"id":"0.05903655846799549-3"}] Result: clickElement:null
+2021-06-10 16:42:09  [com.qmetry.qaf.automation.step.TestStepListener] (main:) Completed Teststep: click on {loc} with arguments: [createaccount]
+2021-06-10 16:42:11  [com.qmetry.qaf.automation.step.TestStepListener] (main:) Invoking Teststep: sendKeys {text} into {loc} with arguments: [Aarathi, Firstname]
+2021-06-10 16:42:11  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing findElement element: By.xpath: //*[@id='customer_firstname'] parameters: {}
+2021-06-10 16:42:11  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing findElement parameters: {"value":"//*[@id='customer_firstname']","using":"xpath"}
+2021-06-10 16:42:11  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: findElement[ param-1: {value=//*[@id='customer_firstname'], using=xpath}] Result: id: 0.05903655846799549-4
+2021-06-10 16:42:11  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: findElement[ param-1: By.xpath: //*[@id='customer_firstname'] param-2: {}] Result: OK
+2021-06-10 16:42:11  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing sendKeysToElement element: By.xpath: //*[@id='customer_firstname'] parameters: {"value":["Aarathi"],"id":"0.05903655846799549-4"}
+2021-06-10 16:42:11  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: sendKeysToElement[ param-1: By.xpath: //*[@id='customer_firstname'] param-2: {"value":["Aarathi"],"id":"0.05903655846799549-4"}] Result: sendKeysToElement:null
+2021-06-10 16:42:11  [com.qmetry.qaf.automation.step.TestStepListener] (main:) Completed Teststep: sendKeys {text} into {loc} with arguments: [Aarathi, Firstname]
+2021-06-10 16:42:13  [com.qmetry.qaf.automation.step.TestStepListener] (main:) Invoking Teststep: sendKeys {text} into {loc} with arguments: [NM, Lastname]
+2021-06-10 16:42:13  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing findElement element: By.xpath: //*[@id='customer_lastname'] parameters: {}
+2021-06-10 16:42:13  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing findElement parameters: {"value":"//*[@id='customer_lastname']","using":"xpath"}
+2021-06-10 16:42:13  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: findElement[ param-1: {value=//*[@id='customer_lastname'], using=xpath}] Result: id: 0.05903655846799549-5
+2021-06-10 16:42:13  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: findElement[ param-1: By.xpath: //*[@id='customer_lastname'] param-2: {}] Result: OK
+2021-06-10 16:42:13  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing sendKeysToElement element: By.xpath: //*[@id='customer_lastname'] parameters: {"value":["NM"],"id":"0.05903655846799549-5"}
+2021-06-10 16:42:13  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: sendKeysToElement[ param-1: By.xpath: //*[@id='customer_lastname'] param-2: {"value":["NM"],"id":"0.05903655846799549-5"}] Result: sendKeysToElement:null
+2021-06-10 16:42:13  [com.qmetry.qaf.automation.step.TestStepListener] (main:) Completed Teststep: sendKeys {text} into {loc} with arguments: [NM, Lastname]
+2021-06-10 16:42:15  [com.qmetry.qaf.automation.step.TestStepListener] (main:) Invoking Teststep: sendKeys {text} into {loc} with arguments: [Welcome@123, CreatePassword]
+2021-06-10 16:42:15  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing findElement element: By.xpath: //*[@id='passwd'] parameters: {}
+2021-06-10 16:42:15  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing findElement parameters: {"value":"//*[@id='passwd']","using":"xpath"}
+2021-06-10 16:42:15  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: findElement[ param-1: {value=//*[@id='passwd'], using=xpath}] Result: id: 0.05903655846799549-6
+2021-06-10 16:42:15  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: findElement[ param-1: By.xpath: //*[@id='passwd'] param-2: {}] Result: OK
+2021-06-10 16:42:15  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing sendKeysToElement element: By.xpath: //*[@id='passwd'] parameters: {"value":["Welcome@123"],"id":"0.05903655846799549-6"}
+2021-06-10 16:42:15  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: sendKeysToElement[ param-1: By.xpath: //*[@id='passwd'] param-2: {"value":["Welcome@123"],"id":"0.05903655846799549-6"}] Result: sendKeysToElement:null
+2021-06-10 16:42:15  [com.qmetry.qaf.automation.step.TestStepListener] (main:) Completed Teststep: sendKeys {text} into {loc} with arguments: [Welcome@123, CreatePassword]
+2021-06-10 16:42:17  [com.qmetry.qaf.automation.step.TestStepListener] (main:) Invoking Teststep: sendKeys {text} into {loc} with arguments: [6, Day]
+2021-06-10 16:42:17  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing findElement element: By.xpath: //*[@id='days'] parameters: {}
+2021-06-10 16:42:17  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing findElement parameters: {"value":"//*[@id='days']","using":"xpath"}
+2021-06-10 16:42:17  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: findElement[ param-1: {value=//*[@id='days'], using=xpath}] Result: id: 0.05903655846799549-7
+2021-06-10 16:42:17  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: findElement[ param-1: By.xpath: //*[@id='days'] param-2: {}] Result: OK
+2021-06-10 16:42:17  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing sendKeysToElement element: By.xpath: //*[@id='days'] parameters: {"value":["6"],"id":"0.05903655846799549-7"}
+2021-06-10 16:42:17  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: sendKeysToElement[ param-1: By.xpath: //*[@id='days'] param-2: {"value":["6"],"id":"0.05903655846799549-7"}] Result: sendKeysToElement:null
+2021-06-10 16:42:17  [com.qmetry.qaf.automation.step.TestStepListener] (main:) Completed Teststep: sendKeys {text} into {loc} with arguments: [6, Day]
+2021-06-10 16:42:17  [com.qmetry.qaf.automation.step.TestStepListener] (main:) Invoking Teststep: sendKeys {text} into {loc} with arguments: [may, Month]
+2021-06-10 16:42:17  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing findElement element: By.xpath: //*[@id='months'] parameters: {}
+2021-06-10 16:42:17  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing findElement parameters: {"value":"//*[@id='months']","using":"xpath"}
+2021-06-10 16:42:17  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: findElement[ param-1: {value=//*[@id='months'], using=xpath}] Result: id: 0.05903655846799549-8
+2021-06-10 16:42:17  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: findElement[ param-1: By.xpath: //*[@id='months'] param-2: {}] Result: OK
+2021-06-10 16:42:17  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing sendKeysToElement element: By.xpath: //*[@id='months'] parameters: {"value":["may"],"id":"0.05903655846799549-8"}
+2021-06-10 16:42:18  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: sendKeysToElement[ param-1: By.xpath: //*[@id='months'] param-2: {"value":["may"],"id":"0.05903655846799549-8"}] Result: sendKeysToElement:null
+2021-06-10 16:42:18  [com.qmetry.qaf.automation.step.TestStepListener] (main:) Completed Teststep: sendKeys {text} into {loc} with arguments: [may, Month]
+2021-06-10 16:42:18  [com.qmetry.qaf.automation.step.TestStepListener] (main:) Invoking Teststep: sendKeys {text} into {loc} with arguments: [1991, Year]
+2021-06-10 16:42:18  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing findElement element: By.xpath: //*[@id='years'] parameters: {}
+2021-06-10 16:42:18  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing findElement parameters: {"value":"//*[@id='years']","using":"xpath"}
+2021-06-10 16:42:18  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: findElement[ param-1: {value=//*[@id='years'], using=xpath}] Result: id: 0.05903655846799549-9
+2021-06-10 16:42:18  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: findElement[ param-1: By.xpath: //*[@id='years'] param-2: {}] Result: OK
+2021-06-10 16:42:18  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing sendKeysToElement element: By.xpath: //*[@id='years'] parameters: {"value":["1991"],"id":"0.05903655846799549-9"}
+2021-06-10 16:42:18  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: sendKeysToElement[ param-1: By.xpath: //*[@id='years'] param-2: {"value":["1991"],"id":"0.05903655846799549-9"}] Result: sendKeysToElement:null
+2021-06-10 16:42:18  [com.qmetry.qaf.automation.step.TestStepListener] (main:) Completed Teststep: sendKeys {text} into {loc} with arguments: [1991, Year]
+2021-06-10 16:42:20  [com.qmetry.qaf.automation.step.TestStepListener] (main:) Invoking Teststep: click on {loc} with arguments: [//*[@id="submitAccount"]/span/i]
+2021-06-10 16:42:20  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing findElement element: By.xpath: //*[@id="submitAccount"]/span/i parameters: {}
+2021-06-10 16:42:20  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing findElement parameters: {"value":"//*[@id=\"submitAccount\"]/span/i","using":"xpath"}
+2021-06-10 16:42:20  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: findElement[ param-1: {value=//*[@id="submitAccount"]/span/i, using=xpath}] Result: id: 0.05903655846799549-10
+2021-06-10 16:42:20  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: findElement[ param-1: By.xpath: //*[@id="submitAccount"]/span/i param-2: {}] Result: OK
+2021-06-10 16:42:20  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing clickElement element: By.xpath: //*[@id="submitAccount"]/span/i parameters: {"id":"0.05903655846799549-10"}
+2021-06-10 16:42:21  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: clickElement[ param-1: By.xpath: //*[@id="submitAccount"]/span/i param-2: {"id":"0.05903655846799549-10"}] Result: element click intercepted: Element <i class="icon-chevron-right right"></i> is not clickable at point (335, 703). Other element would receive the click: <p id="wk-software-name">...</p>
+  (Session info: chrome=91.0.4472.77)
+  (Driver info: chromedriver=90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}),platform=Windows NT 10.0.19042 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 1.06 seconds
+Build info: version: '3.0.0', revision: '350cf60', time: '2016-10-13 10:48:57 -0700'
+System info: host: 'DESKTOP-6BF1I8Q', ip: '192.168.29.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:50742}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, webauthn:extension:largeBlob=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}), userDataDir=C:\Users\91994\AppData\Local\Temp\scoped_dir11020_886076446}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=91.0.4472.77, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
+Session ID: 0e72208332bba16a5cc7e38e2feb46cc
+2021-06-10 16:42:21  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing findElements parameters: {"value":"//*[@id=\"submitAccount\"]/span/i","using":"xpath"}
+2021-06-10 16:42:21  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: findElements[ param-1: {value=//*[@id="submitAccount"]/span/i, using=xpath}] Result: [id: 0.05903655846799549-10]
+2021-06-10 16:42:21  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing executeScript parameters: {"args":[{"element-6066-11e4-a52e-4f735466cecf":"0.05903655846799549-10","ELEMENT":"0.05903655846799549-10"}],"script":"arguments[0].scrollIntoView();"}
+2021-06-10 16:42:28  [com.qmetry.qaf.automation.step.TestStepListener] (main:) Completed Teststep: click on {loc} with arguments: [//*[@id="submitAccount"]/span/i]
+2021-06-10 16:42:28  [qaf.Logs.Log] (main:) AccountCreatedSuccessfully
+2021-06-10 16:42:29  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing quit parameters: {}
+2021-06-10 16:42:29  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: quit[ param-1: {}] Result: null
+2021-06-10 16:42:29  [com.qmetry.qaf.automation.ui.UiDriverFactory] (main:) UI-driver tear down complete...
+2021-06-10 16:42:33  [com.qmetry.qaf.automation.ui.webdriver.ChromeDriverHelper] (Thread-0:) Stopping chrome driver service.
+2021-06-10 17:35:39  [com.qmetry.qaf.automation.util.ExcelUtil] (main:) Rows : 2
+2021-06-10 17:35:39  [com.qmetry.qaf.automation.util.ExcelUtil] (main:) Columns : 28
+2021-06-10 17:35:39  [com.qmetry.qaf.automation.step.TestStepListener] (main:) Invoking Teststep: get {url} with arguments: [/]
+2021-06-10 17:35:39  [com.qmetry.qaf.automation.core.QAFTestBase] (main:) Initializing Driver...browser_str:chromeDriver,base_url:https://demo.qloapps.com/,sel_server:localhost,port:4444
+2021-06-10 17:35:39  [com.qmetry.qaf.automation.ui.UiDriverFactory] (main:) Driver: chromeDriver
+2021-06-10 17:35:47  [com.qmetry.qaf.automation.core.QAFTestBase] (main:) driver init done
+2021-06-10 17:35:47  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing get parameters: {"url":"https://demo.qloapps.com/"}
+2021-06-10 17:35:54  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: get[ param-1: {url=https://demo.qloapps.com/}] Result: null
+2021-06-10 17:35:54  [com.qmetry.qaf.automation.step.TestStepListener] (main:) Completed Teststep: get {url} with arguments: [/]
+2021-06-10 17:35:54  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing maximizeCurrentWindow parameters: {}
+2021-06-10 17:35:54  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: maximizeCurrentWindow[ param-1: {}] Result: {width=1616, x=-8, y=-8, height=876}
+2021-06-10 17:35:54  [com.qmetry.qaf.automation.step.TestStepListener] (main:) Invoking Teststep: click on {loc} with arguments: [SignIn]
+2021-06-10 17:35:54  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing findElement element: By.xpath: //span[@class='hide_xs'] parameters: {}
+2021-06-10 17:35:54  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing findElement parameters: {"value":"//span[@class='hide_xs']","using":"xpath"}
+2021-06-10 17:35:54  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: findElement[ param-1: {value=//span[@class='hide_xs'], using=xpath}] Result: id: 0.2520365315768718-1
+2021-06-10 17:35:54  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: findElement[ param-1: By.xpath: //span[@class='hide_xs'] param-2: {}] Result: OK
+2021-06-10 17:35:54  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing clickElement element: By.xpath: //span[@class='hide_xs'] parameters: {"id":"0.2520365315768718-1"}
+2021-06-10 17:35:58  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: clickElement[ param-1: By.xpath: //span[@class='hide_xs'] param-2: {"id":"0.2520365315768718-1"}] Result: clickElement:null
+2021-06-10 17:35:58  [com.qmetry.qaf.automation.step.TestStepListener] (main:) Completed Teststep: click on {loc} with arguments: [SignIn]
+2021-06-10 17:36:00  [com.qmetry.qaf.automation.step.TestStepListener] (main:) Invoking Teststep: clear {loc} with arguments: [InputEmailID]
+2021-06-10 17:36:00  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing findElement element: By.xpath: //*[@id='email'] parameters: {}
+2021-06-10 17:36:00  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing findElement parameters: {"value":"//*[@id='email']","using":"xpath"}
+2021-06-10 17:36:00  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: findElement[ param-1: {value=//*[@id='email'], using=xpath}] Result: id: 0.0870512866390809-1
+2021-06-10 17:36:00  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: findElement[ param-1: By.xpath: //*[@id='email'] param-2: {}] Result: OK
+2021-06-10 17:36:00  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing clearElement element: By.xpath: //*[@id='email'] parameters: {"id":"0.0870512866390809-1"}
+2021-06-10 17:36:00  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: clearElement[ param-1: By.xpath: //*[@id='email'] param-2: {"id":"0.0870512866390809-1"}] Result: clearElement:null
+2021-06-10 17:36:00  [com.qmetry.qaf.automation.step.TestStepListener] (main:) Completed Teststep: clear {loc} with arguments: [InputEmailID]
+2021-06-10 17:36:00  [com.qmetry.qaf.automation.step.TestStepListener] (main:) Invoking Teststep: sendKeys {text} into {loc} with arguments: [aarathi91@gmail.com, InputEmailID]
+2021-06-10 17:36:00  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing findElement element: By.xpath: //*[@id='email'] parameters: {}
+2021-06-10 17:36:00  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing findElement parameters: {"value":"//*[@id='email']","using":"xpath"}
+2021-06-10 17:36:00  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: findElement[ param-1: {value=//*[@id='email'], using=xpath}] Result: id: 0.0870512866390809-1
+2021-06-10 17:36:00  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: findElement[ param-1: By.xpath: //*[@id='email'] param-2: {}] Result: OK
+2021-06-10 17:36:00  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing sendKeysToElement element: By.xpath: //*[@id='email'] parameters: {"value":["aarathi91@gmail.com"],"id":"0.0870512866390809-1"}
+2021-06-10 17:36:00  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: sendKeysToElement[ param-1: By.xpath: //*[@id='email'] param-2: {"value":["aarathi91@gmail.com"],"id":"0.0870512866390809-1"}] Result: sendKeysToElement:null
+2021-06-10 17:36:00  [com.qmetry.qaf.automation.step.TestStepListener] (main:) Completed Teststep: sendKeys {text} into {loc} with arguments: [aarathi91@gmail.com, InputEmailID]
+2021-06-10 17:36:02  [com.qmetry.qaf.automation.step.TestStepListener] (main:) Invoking Teststep: clear {loc} with arguments: [InputPassword]
+2021-06-10 17:36:02  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing findElement element: By.xpath: //*[@id='passwd'] parameters: {}
+2021-06-10 17:36:02  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing findElement parameters: {"value":"//*[@id='passwd']","using":"xpath"}
+2021-06-10 17:36:02  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: findElement[ param-1: {value=//*[@id='passwd'], using=xpath}] Result: id: 0.0870512866390809-3
+2021-06-10 17:36:02  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: findElement[ param-1: By.xpath: //*[@id='passwd'] param-2: {}] Result: OK
+2021-06-10 17:36:02  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing clearElement element: By.xpath: //*[@id='passwd'] parameters: {"id":"0.0870512866390809-3"}
+2021-06-10 17:36:02  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: clearElement[ param-1: By.xpath: //*[@id='passwd'] param-2: {"id":"0.0870512866390809-3"}] Result: clearElement:null
+2021-06-10 17:36:02  [com.qmetry.qaf.automation.step.TestStepListener] (main:) Completed Teststep: clear {loc} with arguments: [InputPassword]
+2021-06-10 17:36:02  [com.qmetry.qaf.automation.step.TestStepListener] (main:) Invoking Teststep: sendKeys {text} into {loc} with arguments: [Welcome@123, InputPassword]
+2021-06-10 17:36:02  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing findElement element: By.xpath: //*[@id='passwd'] parameters: {}
+2021-06-10 17:36:02  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing findElement parameters: {"value":"//*[@id='passwd']","using":"xpath"}
+2021-06-10 17:36:02  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: findElement[ param-1: {value=//*[@id='passwd'], using=xpath}] Result: id: 0.0870512866390809-3
+2021-06-10 17:36:02  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: findElement[ param-1: By.xpath: //*[@id='passwd'] param-2: {}] Result: OK
+2021-06-10 17:36:02  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing sendKeysToElement element: By.xpath: //*[@id='passwd'] parameters: {"value":["Welcome@123"],"id":"0.0870512866390809-3"}
+2021-06-10 17:36:02  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: sendKeysToElement[ param-1: By.xpath: //*[@id='passwd'] param-2: {"value":["Welcome@123"],"id":"0.0870512866390809-3"}] Result: sendKeysToElement:null
+2021-06-10 17:36:02  [com.qmetry.qaf.automation.step.TestStepListener] (main:) Completed Teststep: sendKeys {text} into {loc} with arguments: [Welcome@123, InputPassword]
+2021-06-10 17:36:04  [com.qmetry.qaf.automation.step.TestStepListener] (main:) Invoking Teststep: click on {loc} with arguments: [Login]
+2021-06-10 17:36:04  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing findElement element: By.xpath: //*[@id='SubmitLogin']/span parameters: {}
+2021-06-10 17:36:04  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing findElement parameters: {"value":"//*[@id='SubmitLogin']/span","using":"xpath"}
+2021-06-10 17:36:04  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: findElement[ param-1: {value=//*[@id='SubmitLogin']/span, using=xpath}] Result: id: 0.0870512866390809-4
+2021-06-10 17:36:04  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: findElement[ param-1: By.xpath: //*[@id='SubmitLogin']/span param-2: {}] Result: OK
+2021-06-10 17:36:04  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing clickElement element: By.xpath: //*[@id='SubmitLogin']/span parameters: {"id":"0.0870512866390809-4"}
+2021-06-10 17:36:07  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: clickElement[ param-1: By.xpath: //*[@id='SubmitLogin']/span param-2: {"id":"0.0870512866390809-4"}] Result: clickElement:null
+2021-06-10 17:36:07  [com.qmetry.qaf.automation.step.TestStepListener] (main:) Completed Teststep: click on {loc} with arguments: [Login]
+2021-06-10 17:36:09  [com.qmetry.qaf.automation.step.TestStepListener] (main:) Invoking Teststep: click on {loc} with arguments: [Personaldetails]
+2021-06-10 17:36:09  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing findElement element: By.xpath: //*[@id='center_column']/div/div/ul/li[5]/a/span parameters: {}
+2021-06-10 17:36:09  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing findElement parameters: {"value":"//*[@id='center_column']/div/div/ul/li[5]/a/span","using":"xpath"}
+2021-06-10 17:36:09  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: findElement[ param-1: {value=//*[@id='center_column']/div/div/ul/li[5]/a/span, using=xpath}] Result: id: 0.09879649354020348-1
+2021-06-10 17:36:09  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: findElement[ param-1: By.xpath: //*[@id='center_column']/div/div/ul/li[5]/a/span param-2: {}] Result: OK
+2021-06-10 17:36:09  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing clickElement element: By.xpath: //*[@id='center_column']/div/div/ul/li[5]/a/span parameters: {"id":"0.09879649354020348-1"}
+2021-06-10 17:36:11  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: clickElement[ param-1: By.xpath: //*[@id='center_column']/div/div/ul/li[5]/a/span param-2: {"id":"0.09879649354020348-1"}] Result: clickElement:null
+2021-06-10 17:36:11  [com.qmetry.qaf.automation.step.TestStepListener] (main:) Completed Teststep: click on {loc} with arguments: [Personaldetails]
+2021-06-10 17:36:13  [com.qmetry.qaf.automation.step.TestStepListener] (main:) Invoking Teststep: clear {loc} with arguments: [Fname]
+2021-06-10 17:36:13  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing findElement element: By.xpath: //*[@id='firstname'] parameters: {}
+2021-06-10 17:36:13  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing findElement parameters: {"value":"//*[@id='firstname']","using":"xpath"}
+2021-06-10 17:36:13  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: findElement[ param-1: {value=//*[@id='firstname'], using=xpath}] Result: id: 0.843293960545078-1
+2021-06-10 17:36:13  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: findElement[ param-1: By.xpath: //*[@id='firstname'] param-2: {}] Result: OK
+2021-06-10 17:36:13  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing clearElement element: By.xpath: //*[@id='firstname'] parameters: {"id":"0.843293960545078-1"}
+2021-06-10 17:36:13  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: clearElement[ param-1: By.xpath: //*[@id='firstname'] param-2: {"id":"0.843293960545078-1"}] Result: clearElement:null
+2021-06-10 17:36:13  [com.qmetry.qaf.automation.step.TestStepListener] (main:) Completed Teststep: clear {loc} with arguments: [Fname]
+2021-06-10 17:36:13  [com.qmetry.qaf.automation.step.TestStepListener] (main:) Invoking Teststep: sendKeys {text} into {loc} with arguments: [AarathiMani, Fname]
+2021-06-10 17:36:13  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing findElement element: By.xpath: //*[@id='firstname'] parameters: {}
+2021-06-10 17:36:13  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing findElement parameters: {"value":"//*[@id='firstname']","using":"xpath"}
+2021-06-10 17:36:13  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: findElement[ param-1: {value=//*[@id='firstname'], using=xpath}] Result: id: 0.843293960545078-1
+2021-06-10 17:36:13  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: findElement[ param-1: By.xpath: //*[@id='firstname'] param-2: {}] Result: OK
+2021-06-10 17:36:13  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing sendKeysToElement element: By.xpath: //*[@id='firstname'] parameters: {"value":["AarathiMani"],"id":"0.843293960545078-1"}
+2021-06-10 17:36:13  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: sendKeysToElement[ param-1: By.xpath: //*[@id='firstname'] param-2: {"value":["AarathiMani"],"id":"0.843293960545078-1"}] Result: sendKeysToElement:null
+2021-06-10 17:36:13  [com.qmetry.qaf.automation.step.TestStepListener] (main:) Completed Teststep: sendKeys {text} into {loc} with arguments: [AarathiMani, Fname]
+2021-06-10 17:36:15  [com.qmetry.qaf.automation.step.TestStepListener] (main:) Invoking Teststep: sendKeys {text} into {loc} with arguments: [27, Dateborn]
+2021-06-10 17:36:15  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing findElement element: By.xpath: //*[@id='days'] parameters: {}
+2021-06-10 17:36:15  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing findElement parameters: {"value":"//*[@id='days']","using":"xpath"}
+2021-06-10 17:36:15  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: findElement[ param-1: {value=//*[@id='days'], using=xpath}] Result: id: 0.843293960545078-3
+2021-06-10 17:36:15  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: findElement[ param-1: By.xpath: //*[@id='days'] param-2: {}] Result: OK
+2021-06-10 17:36:15  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing sendKeysToElement element: By.xpath: //*[@id='days'] parameters: {"value":["27"],"id":"0.843293960545078-3"}
+2021-06-10 17:36:15  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: sendKeysToElement[ param-1: By.xpath: //*[@id='days'] param-2: {"value":["27"],"id":"0.843293960545078-3"}] Result: sendKeysToElement:null
+2021-06-10 17:36:15  [com.qmetry.qaf.automation.step.TestStepListener] (main:) Completed Teststep: sendKeys {text} into {loc} with arguments: [27, Dateborn]
+2021-06-10 17:36:17  [com.qmetry.qaf.automation.step.TestStepListener] (main:) Invoking Teststep: sendKeys {text} into {loc} with arguments: [June, Monthborn]
+2021-06-10 17:36:17  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing findElement element: By.xpath: //*[@id='months'] parameters: {}
+2021-06-10 17:36:17  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing findElement parameters: {"value":"//*[@id='months']","using":"xpath"}
+2021-06-10 17:36:17  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: findElement[ param-1: {value=//*[@id='months'], using=xpath}] Result: id: 0.843293960545078-4
+2021-06-10 17:36:17  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: findElement[ param-1: By.xpath: //*[@id='months'] param-2: {}] Result: OK
+2021-06-10 17:36:17  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing sendKeysToElement element: By.xpath: //*[@id='months'] parameters: {"value":["June"],"id":"0.843293960545078-4"}
+2021-06-10 17:36:18  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: sendKeysToElement[ param-1: By.xpath: //*[@id='months'] param-2: {"value":["June"],"id":"0.843293960545078-4"}] Result: sendKeysToElement:null
+2021-06-10 17:36:18  [com.qmetry.qaf.automation.step.TestStepListener] (main:) Completed Teststep: sendKeys {text} into {loc} with arguments: [June, Monthborn]
+2021-06-10 17:36:20  [com.qmetry.qaf.automation.step.TestStepListener] (main:) Invoking Teststep: sendKeys {text} into {loc} with arguments: [Welcome@123, CurrentPassword]
+2021-06-10 17:36:20  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing findElement element: By.xpath: //*[@id='old_passwd'] parameters: {}
+2021-06-10 17:36:20  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing findElement parameters: {"value":"//*[@id='old_passwd']","using":"xpath"}
+2021-06-10 17:36:20  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: findElement[ param-1: {value=//*[@id='old_passwd'], using=xpath}] Result: id: 0.843293960545078-5
+2021-06-10 17:36:20  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: findElement[ param-1: By.xpath: //*[@id='old_passwd'] param-2: {}] Result: OK
+2021-06-10 17:36:20  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing sendKeysToElement element: By.xpath: //*[@id='old_passwd'] parameters: {"value":["Welcome@123"],"id":"0.843293960545078-5"}
+2021-06-10 17:36:20  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: sendKeysToElement[ param-1: By.xpath: //*[@id='old_passwd'] param-2: {"value":["Welcome@123"],"id":"0.843293960545078-5"}] Result: sendKeysToElement:null
+2021-06-10 17:36:20  [com.qmetry.qaf.automation.step.TestStepListener] (main:) Completed Teststep: sendKeys {text} into {loc} with arguments: [Welcome@123, CurrentPassword]
+2021-06-10 17:36:22  [com.qmetry.qaf.automation.step.TestStepListener] (main:) Invoking Teststep: click on {loc} with arguments: [ModifySave]
+2021-06-10 17:36:22  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing findElement element: By.xpath: //*[@id='center_column']/div/form/fieldset/div[11]/button/span parameters: {}
+2021-06-10 17:36:22  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing findElement parameters: {"value":"//*[@id='center_column']/div/form/fieldset/div[11]/button/span","using":"xpath"}
+2021-06-10 17:36:22  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: findElement[ param-1: {value=//*[@id='center_column']/div/form/fieldset/div[11]/button/span, using=xpath}] Result: id: 0.843293960545078-6
+2021-06-10 17:36:22  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: findElement[ param-1: By.xpath: //*[@id='center_column']/div/form/fieldset/div[11]/button/span param-2: {}] Result: OK
+2021-06-10 17:36:22  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing clickElement element: By.xpath: //*[@id='center_column']/div/form/fieldset/div[11]/button/span parameters: {"id":"0.843293960545078-6"}
+2021-06-10 17:36:23  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: clickElement[ param-1: By.xpath: //*[@id='center_column']/div/form/fieldset/div[11]/button/span param-2: {"id":"0.843293960545078-6"}] Result: clickElement:null
+2021-06-10 17:36:23  [com.qmetry.qaf.automation.step.TestStepListener] (main:) Completed Teststep: click on {loc} with arguments: [ModifySave]
+2021-06-10 17:36:25  [com.qmetry.qaf.automation.step.TestStepListener] (main:) Invoking Teststep: click on {loc} with arguments: [Modifyuserinfo]
+2021-06-10 17:36:25  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing findElement element: By.xpath: //*[@id='user_info_acc']/span[1] parameters: {}
+2021-06-10 17:36:25  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing findElement parameters: {"value":"//*[@id='user_info_acc']/span[1]","using":"xpath"}
+2021-06-10 17:36:25  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: findElement[ param-1: {value=//*[@id='user_info_acc']/span[1], using=xpath}] Result: id: 0.4311937706265234-1
+2021-06-10 17:36:25  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: findElement[ param-1: By.xpath: //*[@id='user_info_acc']/span[1] param-2: {}] Result: OK
+2021-06-10 17:36:25  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing clickElement element: By.xpath: //*[@id='user_info_acc']/span[1] parameters: {"id":"0.4311937706265234-1"}
+2021-06-10 17:36:25  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: clickElement[ param-1: By.xpath: //*[@id='user_info_acc']/span[1] param-2: {"id":"0.4311937706265234-1"}] Result: clickElement:null
+2021-06-10 17:36:25  [com.qmetry.qaf.automation.step.TestStepListener] (main:) Completed Teststep: click on {loc} with arguments: [Modifyuserinfo]
+2021-06-10 17:36:27  [com.qmetry.qaf.automation.step.TestStepListener] (main:) Invoking Teststep: click on {loc} with arguments: [Modifylogout]
+2021-06-10 17:36:27  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing findElement element: By.xpath: //*[@id='user_info_acc']/span[1] parameters: {}
+2021-06-10 17:36:27  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing findElement parameters: {"value":"//*[@id='user_info_acc']/span[1]","using":"xpath"}
+2021-06-10 17:36:27  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: findElement[ param-1: {value=//*[@id='user_info_acc']/span[1], using=xpath}] Result: id: 0.4311937706265234-1
+2021-06-10 17:36:27  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: findElement[ param-1: By.xpath: //*[@id='user_info_acc']/span[1] param-2: {}] Result: OK
+2021-06-10 17:36:27  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing clickElement element: By.xpath: //*[@id='user_info_acc']/span[1] parameters: {"id":"0.4311937706265234-1"}
+2021-06-10 17:36:27  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: clickElement[ param-1: By.xpath: //*[@id='user_info_acc']/span[1] param-2: {"id":"0.4311937706265234-1"}] Result: clickElement:null
+2021-06-10 17:36:27  [com.qmetry.qaf.automation.step.TestStepListener] (main:) Completed Teststep: click on {loc} with arguments: [Modifylogout]
+2021-06-10 17:36:29  [qaf.Logs.Log] (main:) Personal details updated successfully
+2021-06-10 17:36:31  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing quit parameters: {}
+2021-06-10 17:36:31  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: quit[ param-1: {}] Result: null
+2021-06-10 17:36:31  [com.qmetry.qaf.automation.ui.UiDriverFactory] (main:) UI-driver tear down complete...
+2021-06-10 17:36:32  [com.qmetry.qaf.automation.ui.webdriver.ChromeDriverHelper] (Thread-0:) Stopping chrome driver service.
+2021-06-10 17:37:27  [com.qmetry.qaf.automation.util.ExcelUtil] (main:) Rows : 2
+2021-06-10 17:37:27  [com.qmetry.qaf.automation.util.ExcelUtil] (main:) Columns : 28
+2021-06-10 17:37:27  [com.qmetry.qaf.automation.step.TestStepListener] (main:) Invoking Teststep: get {url} with arguments: [/]
+2021-06-10 17:37:27  [com.qmetry.qaf.automation.core.QAFTestBase] (main:) Initializing Driver...browser_str:chromeDriver,base_url:https://demo.qloapps.com/,sel_server:localhost,port:4444
+2021-06-10 17:37:27  [com.qmetry.qaf.automation.ui.UiDriverFactory] (main:) Driver: chromeDriver
+2021-06-10 17:37:33  [com.qmetry.qaf.automation.core.QAFTestBase] (main:) driver init done
+2021-06-10 17:37:33  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing get parameters: {"url":"https://demo.qloapps.com/"}
+2021-06-10 17:37:40  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: get[ param-1: {url=https://demo.qloapps.com/}] Result: null
+2021-06-10 17:37:40  [com.qmetry.qaf.automation.step.TestStepListener] (main:) Completed Teststep: get {url} with arguments: [/]
+2021-06-10 17:37:40  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing maximizeCurrentWindow parameters: {}
+2021-06-10 17:37:40  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: maximizeCurrentWindow[ param-1: {}] Result: {width=1616, x=-8, y=-8, height=876}
+2021-06-10 17:37:40  [com.qmetry.qaf.automation.step.TestStepListener] (main:) Invoking Teststep: click on {loc} with arguments: [Menu]
+2021-06-10 17:37:40  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing findElement element: By.xpath: //*[@id='header']/div[3]/div/div/div[2]/button parameters: {}
+2021-06-10 17:37:40  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing findElement parameters: {"value":"//*[@id='header']/div[3]/div/div/div[2]/button","using":"xpath"}
+2021-06-10 17:37:40  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: findElement[ param-1: {value=//*[@id='header']/div[3]/div/div/div[2]/button, using=xpath}] Result: id: 0.8885638665550273-1
+2021-06-10 17:37:40  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: findElement[ param-1: By.xpath: //*[@id='header']/div[3]/div/div/div[2]/button param-2: {}] Result: OK
+2021-06-10 17:37:40  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing clickElement element: By.xpath: //*[@id='header']/div[3]/div/div/div[2]/button parameters: {"id":"0.8885638665550273-1"}
+2021-06-10 17:37:40  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: clickElement[ param-1: By.xpath: //*[@id='header']/div[3]/div/div/div[2]/button param-2: {"id":"0.8885638665550273-1"}] Result: clickElement:null
+2021-06-10 17:37:40  [com.qmetry.qaf.automation.step.TestStepListener] (main:) Completed Teststep: click on {loc} with arguments: [Menu]
+2021-06-10 17:37:42  [com.qmetry.qaf.automation.step.TestStepListener] (main:) Invoking Teststep: click on {loc} with arguments: [Contact]
+2021-06-10 17:37:42  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing findElement element: By.xpath: //*[@id='menu_cont']/div/div/div[2]/ul[1]/li[8]/a parameters: {}
+2021-06-10 17:37:42  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing findElement parameters: {"value":"//*[@id='menu_cont']/div/div/div[2]/ul[1]/li[8]/a","using":"xpath"}
+2021-06-10 17:37:42  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: findElement[ param-1: {value=//*[@id='menu_cont']/div/div/div[2]/ul[1]/li[8]/a, using=xpath}] Result: id: 0.8885638665550273-2
+2021-06-10 17:37:42  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: findElement[ param-1: By.xpath: //*[@id='menu_cont']/div/div/div[2]/ul[1]/li[8]/a param-2: {}] Result: OK
+2021-06-10 17:37:42  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing clickElement element: By.xpath: //*[@id='menu_cont']/div/div/div[2]/ul[1]/li[8]/a parameters: {"id":"0.8885638665550273-2"}
+2021-06-10 17:37:45  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: clickElement[ param-1: By.xpath: //*[@id='menu_cont']/div/div/div[2]/ul[1]/li[8]/a param-2: {"id":"0.8885638665550273-2"}] Result: clickElement:null
+2021-06-10 17:37:45  [com.qmetry.qaf.automation.step.TestStepListener] (main:) Completed Teststep: click on {loc} with arguments: [Contact]
+2021-06-10 17:37:47  [com.qmetry.qaf.automation.step.TestStepListener] (main:) Invoking Teststep: click on {loc} with arguments: [Subject]
+2021-06-10 17:37:47  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing findElement element: By.xpath: //*[@id='contact_type'] parameters: {}
+2021-06-10 17:37:47  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing findElement parameters: {"value":"//*[@id='contact_type']","using":"xpath"}
+2021-06-10 17:37:47  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: findElement[ param-1: {value=//*[@id='contact_type'], using=xpath}] Result: id: 0.5123187119966481-1
+2021-06-10 17:37:47  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: findElement[ param-1: By.xpath: //*[@id='contact_type'] param-2: {}] Result: OK
+2021-06-10 17:37:47  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing clickElement element: By.xpath: //*[@id='contact_type'] parameters: {"id":"0.5123187119966481-1"}
+2021-06-10 17:37:47  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: clickElement[ param-1: By.xpath: //*[@id='contact_type'] param-2: {"id":"0.5123187119966481-1"}] Result: clickElement:null
+2021-06-10 17:37:47  [com.qmetry.qaf.automation.step.TestStepListener] (main:) Completed Teststep: click on {loc} with arguments: [Subject]
+2021-06-10 17:37:49  [com.qmetry.qaf.automation.step.TestStepListener] (main:) Invoking Teststep: click on {loc} with arguments: [Custservice]
+2021-06-10 17:37:49  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing findElement element: By.xpath: //*[@id='center_column']/div/div[2]/div[2]/form/div[1]/div/div/ul/li[1] parameters: {}
+2021-06-10 17:37:49  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing findElement parameters: {"value":"//*[@id='center_column']/div/div[2]/div[2]/form/div[1]/div/div/ul/li[1]","using":"xpath"}
+2021-06-10 17:37:49  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: findElement[ param-1: {value=//*[@id='center_column']/div/div[2]/div[2]/form/div[1]/div/div/ul/li[1], using=xpath}] Result: id: 0.5123187119966481-2
+2021-06-10 17:37:49  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: findElement[ param-1: By.xpath: //*[@id='center_column']/div/div[2]/div[2]/form/div[1]/div/div/ul/li[1] param-2: {}] Result: OK
+2021-06-10 17:37:49  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing clickElement element: By.xpath: //*[@id='center_column']/div/div[2]/div[2]/form/div[1]/div/div/ul/li[1] parameters: {"id":"0.5123187119966481-2"}
+2021-06-10 17:37:49  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: clickElement[ param-1: By.xpath: //*[@id='center_column']/div/div[2]/div[2]/form/div[1]/div/div/ul/li[1] param-2: {"id":"0.5123187119966481-2"}] Result: clickElement:null
+2021-06-10 17:37:49  [com.qmetry.qaf.automation.step.TestStepListener] (main:) Completed Teststep: click on {loc} with arguments: [Custservice]
+2021-06-10 17:37:51  [com.qmetry.qaf.automation.step.TestStepListener] (main:) Invoking Teststep: sendKeys {text} into {loc} with arguments: [aarathinm@gmail.com, ValidEmail]
+2021-06-10 17:37:51  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing findElement element: By.xpath: //*[@id='email'] parameters: {}
+2021-06-10 17:37:51  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing findElement parameters: {"value":"//*[@id='email']","using":"xpath"}
+2021-06-10 17:37:51  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: findElement[ param-1: {value=//*[@id='email'], using=xpath}] Result: id: 0.5123187119966481-3
+2021-06-10 17:37:51  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: findElement[ param-1: By.xpath: //*[@id='email'] param-2: {}] Result: OK
+2021-06-10 17:37:51  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing sendKeysToElement element: By.xpath: //*[@id='email'] parameters: {"value":["aarathinm@gmail.com"],"id":"0.5123187119966481-3"}
+2021-06-10 17:37:52  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: sendKeysToElement[ param-1: By.xpath: //*[@id='email'] param-2: {"value":["aarathinm@gmail.com"],"id":"0.5123187119966481-3"}] Result: sendKeysToElement:null
+2021-06-10 17:37:52  [com.qmetry.qaf.automation.step.TestStepListener] (main:) Completed Teststep: sendKeys {text} into {loc} with arguments: [aarathinm@gmail.com, ValidEmail]
+2021-06-10 17:37:54  [com.qmetry.qaf.automation.step.TestStepListener] (main:) Invoking Teststep: sendKeys {text} into {loc} with arguments: [Test, Query]
+2021-06-10 17:37:54  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing findElement element: By.xpath: //*[@id='message'] parameters: {}
+2021-06-10 17:37:54  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing findElement parameters: {"value":"//*[@id='message']","using":"xpath"}
+2021-06-10 17:37:54  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: findElement[ param-1: {value=//*[@id='message'], using=xpath}] Result: id: 0.5123187119966481-5
+2021-06-10 17:37:54  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: findElement[ param-1: By.xpath: //*[@id='message'] param-2: {}] Result: OK
+2021-06-10 17:37:54  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing sendKeysToElement element: By.xpath: //*[@id='message'] parameters: {"value":["Test"],"id":"0.5123187119966481-5"}
+2021-06-10 17:37:54  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: sendKeysToElement[ param-1: By.xpath: //*[@id='message'] param-2: {"value":["Test"],"id":"0.5123187119966481-5"}] Result: sendKeysToElement:null
+2021-06-10 17:37:54  [com.qmetry.qaf.automation.step.TestStepListener] (main:) Completed Teststep: sendKeys {text} into {loc} with arguments: [Test, Query]
+2021-06-10 17:37:56  [com.qmetry.qaf.automation.step.TestStepListener] (main:) Invoking Teststep: click on {loc} with arguments: [Sendmessage]
+2021-06-10 17:37:56  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing findElement element: By.xpath: //*[@id='submitMessage']/span parameters: {}
+2021-06-10 17:37:56  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing findElement parameters: {"value":"//*[@id='submitMessage']/span","using":"xpath"}
+2021-06-10 17:37:56  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: findElement[ param-1: {value=//*[@id='submitMessage']/span, using=xpath}] Result: id: 0.5123187119966481-6
+2021-06-10 17:37:56  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: findElement[ param-1: By.xpath: //*[@id='submitMessage']/span param-2: {}] Result: OK
+2021-06-10 17:37:56  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing clickElement element: By.xpath: //*[@id='submitMessage']/span parameters: {"id":"0.5123187119966481-6"}
+2021-06-10 17:38:01  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: clickElement[ param-1: By.xpath: //*[@id='submitMessage']/span param-2: {"id":"0.5123187119966481-6"}] Result: clickElement:null
+2021-06-10 17:38:01  [com.qmetry.qaf.automation.step.TestStepListener] (main:) Completed Teststep: click on {loc} with arguments: [Sendmessage]
+2021-06-10 17:38:03  [qaf.Logs.Log] (main:) Contact details updated successfully
+2021-06-10 17:38:03  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing quit parameters: {}
+2021-06-10 17:38:04  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: quit[ param-1: {}] Result: null
+2021-06-10 17:38:04  [com.qmetry.qaf.automation.ui.UiDriverFactory] (main:) UI-driver tear down complete...
+2021-06-10 17:38:05  [com.qmetry.qaf.automation.ui.webdriver.ChromeDriverHelper] (Thread-0:) Stopping chrome driver service.
+2021-06-10 18:41:18  [com.qmetry.qaf.automation.util.ExcelUtil] (main:) Rows : 2
+2021-06-10 18:41:18  [com.qmetry.qaf.automation.util.ExcelUtil] (main:) Columns : 28
+2021-06-10 18:41:18  [com.qmetry.qaf.automation.step.TestStepListener] (main:) Invoking Teststep: get {url} with arguments: [/]
+2021-06-10 18:41:18  [com.qmetry.qaf.automation.core.QAFTestBase] (main:) Initializing Driver...browser_str:chromeDriver,base_url:https://demo.qloapps.com/,sel_server:localhost,port:4444
+2021-06-10 18:41:18  [com.qmetry.qaf.automation.ui.UiDriverFactory] (main:) Driver: chromeDriver
+2021-06-10 18:41:28  [com.qmetry.qaf.automation.core.QAFTestBase] (main:) driver init done
+2021-06-10 18:41:28  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing get parameters: {"url":"https://demo.qloapps.com/"}
+2021-06-10 18:41:35  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: get[ param-1: {url=https://demo.qloapps.com/}] Result: null
+2021-06-10 18:41:36  [com.qmetry.qaf.automation.step.TestStepListener] (main:) Completed Teststep: get {url} with arguments: [/]
+2021-06-10 18:41:36  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing maximizeCurrentWindow parameters: {}
+2021-06-10 18:41:36  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: maximizeCurrentWindow[ param-1: {}] Result: {width=1616, x=-8, y=-8, height=876}
+2021-06-10 18:41:39  [com.qmetry.qaf.automation.step.TestStepListener] (main:) Invoking Teststep: click on {loc} with arguments: [click.menu]
+2021-06-10 18:41:39  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing findElement element: By.xpath: /html/body/div/div[1]/header/div[3]/div/div/div[2]/button parameters: {}
+2021-06-10 18:41:39  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing findElement parameters: {"value":"/html/body/div/div[1]/header/div[3]/div/div/div[2]/button","using":"xpath"}
+2021-06-10 18:41:39  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: findElement[ param-1: {value=/html/body/div/div[1]/header/div[3]/div/div/div[2]/button, using=xpath}] Result: id: 0.1816865083297945-1
+2021-06-10 18:41:39  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: findElement[ param-1: By.xpath: /html/body/div/div[1]/header/div[3]/div/div/div[2]/button param-2: {}] Result: OK
+2021-06-10 18:41:39  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing clickElement element: By.xpath: /html/body/div/div[1]/header/div[3]/div/div/div[2]/button parameters: {"id":"0.1816865083297945-1"}
+2021-06-10 18:41:39  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: clickElement[ param-1: By.xpath: /html/body/div/div[1]/header/div[3]/div/div/div[2]/button param-2: {"id":"0.1816865083297945-1"}] Result: clickElement:null
+2021-06-10 18:41:39  [com.qmetry.qaf.automation.step.TestStepListener] (main:) Completed Teststep: click on {loc} with arguments: [click.menu]
+2021-06-10 18:41:39  [com.qmetry.qaf.automation.step.TestStepListener] (main:) Invoking Teststep: click on {loc} with arguments: [click.roomsmenu]
+2021-06-10 18:41:39  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing findElement element: By.xpath: /html/body/div[1]/div[1]/header/div[3]/div/div/div[3]/div/div/div[2]/ul[1]/li[4]/a parameters: {}
+2021-06-10 18:41:39  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing findElement parameters: {"value":"/html/body/div[1]/div[1]/header/div[3]/div/div/div[3]/div/div/div[2]/ul[1]/li[4]/a","using":"xpath"}
+2021-06-10 18:41:39  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: findElement[ param-1: {value=/html/body/div[1]/div[1]/header/div[3]/div/div/div[3]/div/div/div[2]/ul[1]/li[4]/a, using=xpath}] Result: id: 0.1816865083297945-2
+2021-06-10 18:41:39  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: findElement[ param-1: By.xpath: /html/body/div[1]/div[1]/header/div[3]/div/div/div[3]/div/div/div[2]/ul[1]/li[4]/a param-2: {}] Result: OK
+2021-06-10 18:41:39  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing clickElement element: By.xpath: /html/body/div[1]/div[1]/header/div[3]/div/div/div[3]/div/div/div[2]/ul[1]/li[4]/a parameters: {"id":"0.1816865083297945-2"}
+2021-06-10 18:41:40  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: clickElement[ param-1: By.xpath: /html/body/div[1]/div[1]/header/div[3]/div/div/div[3]/div/div/div[2]/ul[1]/li[4]/a param-2: {"id":"0.1816865083297945-2"}] Result: clickElement:null
+2021-06-10 18:41:40  [com.qmetry.qaf.automation.step.TestStepListener] (main:) Completed Teststep: click on {loc} with arguments: [click.roomsmenu]
+2021-06-10 18:41:40  [com.qmetry.qaf.automation.step.TestStepListener] (main:) Invoking Teststep: click on {loc} with arguments: [click.booknowroom]
+2021-06-10 18:41:40  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing findElement element: By.xpath: /html/body/div[1]/div[2]/div/div[2]/div/div/div[3]/div/div[2]/div/div[2]/div[2]/div/div[3]/a parameters: {}
+2021-06-10 18:41:40  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing findElement parameters: {"value":"/html/body/div[1]/div[2]/div/div[2]/div/div/div[3]/div/div[2]/div/div[2]/div[2]/div/div[3]/a","using":"xpath"}
+2021-06-10 18:41:40  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: findElement[ param-1: {value=/html/body/div[1]/div[2]/div/div[2]/div/div/div[3]/div/div[2]/div/div[2]/div[2]/div/div[3]/a, using=xpath}] Result: id: 0.1816865083297945-3
+2021-06-10 18:41:40  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: findElement[ param-1: By.xpath: /html/body/div[1]/div[2]/div/div[2]/div/div/div[3]/div/div[2]/div/div[2]/div[2]/div/div[3]/a param-2: {}] Result: OK
+2021-06-10 18:41:40  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing clickElement element: By.xpath: /html/body/div[1]/div[2]/div/div[2]/div/div/div[3]/div/div[2]/div/div[2]/div[2]/div/div[3]/a parameters: {"id":"0.1816865083297945-3"}
+2021-06-10 18:41:41  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: clickElement[ param-1: By.xpath: /html/body/div[1]/div[2]/div/div[2]/div/div/div[3]/div/div[2]/div/div[2]/div[2]/div/div[3]/a param-2: {"id":"0.1816865083297945-3"}] Result: element click intercepted: Element <a target="blank" class="btn btn-default button htlRoomTypeBookNow" href="https://demo.qloapps.com/en/the-hotel-prime/4-super-delux-rooms.html">...</a> is not clickable at point (892, 723). Other element would receive the click: <div class="col-md-7 text-right visible-md visible-lg wk-demolinks">...</div>
+  (Session info: chrome=91.0.4472.77)
+  (Driver info: chromedriver=90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}),platform=Windows NT 10.0.19042 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 1.16 seconds
+Build info: version: '3.0.0', revision: '350cf60', time: '2016-10-13 10:48:57 -0700'
+System info: host: 'DESKTOP-6BF1I8Q', ip: '192.168.29.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:51382}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, webauthn:extension:largeBlob=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}), userDataDir=C:\Users\91994\AppData\Local\Temp\scoped_dir16296_168746953}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=91.0.4472.77, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
+Session ID: 16a1b9a64ce9183aceabf672421d907e
+2021-06-10 18:41:41  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing findElements parameters: {"value":"/html/body/div[1]/div[2]/div/div[2]/div/div/div[3]/div/div[2]/div/div[2]/div[2]/div/div[3]/a","using":"xpath"}
+2021-06-10 18:41:41  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: findElements[ param-1: {value=/html/body/div[1]/div[2]/div/div[2]/div/div/div[3]/div/div[2]/div/div[2]/div[2]/div/div[3]/a, using=xpath}] Result: [id: 0.1816865083297945-3]
+2021-06-10 18:41:41  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing executeScript parameters: {"args":[{"element-6066-11e4-a52e-4f735466cecf":"0.1816865083297945-3","ELEMENT":"0.1816865083297945-3"}],"script":"arguments[0].scrollIntoView();"}
+2021-06-10 18:41:41  [com.qmetry.qaf.automation.step.TestStepListener] (main:) Completed Teststep: click on {loc} with arguments: [click.booknowroom]
+2021-06-10 18:41:43  [com.qmetry.qaf.automation.step.TestStepListener] (main:) Invoking Teststep: click on {loc} with arguments: [click.checkindateroom1]
+2021-06-10 18:41:43  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing findElement element: By.xpath: /html/body/div[2]/table/tbody/tr[3]/td[2]/a parameters: {}
+2021-06-10 18:41:43  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing findElement parameters: {"value":"/html/body/div[2]/table/tbody/tr[3]/td[2]/a","using":"xpath"}
+2021-06-10 18:41:43  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: findElement[ param-1: {value=/html/body/div[2]/table/tbody/tr[3]/td[2]/a, using=xpath}] Result: id: 0.1816865083297945-4
+2021-06-10 18:41:43  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: findElement[ param-1: By.xpath: /html/body/div[2]/table/tbody/tr[3]/td[2]/a param-2: {}] Result: OK
+2021-06-10 18:41:43  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing clickElement element: By.xpath: /html/body/div[2]/table/tbody/tr[3]/td[2]/a parameters: {"id":"0.1816865083297945-4"}
+2021-06-10 18:41:43  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: clickElement[ param-1: By.xpath: /html/body/div[2]/table/tbody/tr[3]/td[2]/a param-2: {"id":"0.1816865083297945-4"}] Result: element not interactable
+  (Session info: chrome=91.0.4472.77)
+  (Driver info: chromedriver=90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}),platform=Windows NT 10.0.19042 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 20 milliseconds
+Build info: version: '3.0.0', revision: '350cf60', time: '2016-10-13 10:48:57 -0700'
+System info: host: 'DESKTOP-6BF1I8Q', ip: '192.168.29.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:51382}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, webauthn:extension:largeBlob=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}), userDataDir=C:\Users\91994\AppData\Local\Temp\scoped_dir16296_168746953}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=91.0.4472.77, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
+Session ID: 16a1b9a64ce9183aceabf672421d907e
+2021-06-10 18:41:43  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing findElements parameters: {"value":"/html/body/div[2]/table/tbody/tr[3]/td[2]/a","using":"xpath"}
+2021-06-10 18:41:43  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: findElements[ param-1: {value=/html/body/div[2]/table/tbody/tr[3]/td[2]/a, using=xpath}] Result: [id: 0.1816865083297945-4]
+2021-06-10 18:41:43  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing executeScript parameters: {"args":[{"element-6066-11e4-a52e-4f735466cecf":"0.1816865083297945-4","ELEMENT":"0.1816865083297945-4"}],"script":"arguments[0].scrollIntoView();"}
+2021-06-10 18:41:44  [com.qmetry.qaf.automation.step.TestStepListener] (main:) Failure Teststep: click on {loc} with arguments: [click.checkindateroom1]
+com.qmetry.qaf.automation.step.JavaStepReporter$JPThrowable: org.openqa.selenium.ElementNotVisibleException: element not interactable
+  (Session info: chrome=91.0.4472.77)
+  (Driver info: chromedriver=90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}),platform=Windows NT 10.0.19042 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 12 milliseconds
+Build info: version: '3.0.0', revision: '350cf60', time: '2016-10-13 10:48:57 -0700'
+System info: host: 'DESKTOP-6BF1I8Q', ip: '192.168.29.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:51382}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, webauthn:extension:largeBlob=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}), userDataDir=C:\Users\91994\AppData\Local\Temp\scoped_dir16296_168746953}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=91.0.4472.77, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
+Session ID: 16a1b9a64ce9183aceabf672421d907e
+	at com.qmetry.qaf.automation.step.JavaStepReporter$MockJavaStep.doExecute(JavaStepReporter.java:136)
+	at com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)
+	at com.qmetry.qaf.automation.step.JavaStepReporter.javaTestStep(JavaStepReporter.java:80)
+	at com.qmetry.qaf.automation.step.CommonStep.click(CommonStep.java:451)
+	at qaf.example.tests.TC003_QLO_BookingHotelRoom.Bookingroom(TC003_QLO_BookingHotelRoom.java:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.ElementNotVisibleException: element not interactable
+  (Session info: chrome=91.0.4472.77)
+  (Driver info: chromedriver=90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}),platform=Windows NT 10.0.19042 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 12 milliseconds
+Build info: version: '3.0.0', revision: '350cf60', time: '2016-10-13 10:48:57 -0700'
+System info: host: 'DESKTOP-6BF1I8Q', ip: '192.168.29.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:51382}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, webauthn:extension:largeBlob=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}), userDataDir=C:\Users\91994\AppData\Local\Temp\scoped_dir16296_168746953}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=91.0.4472.77, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
+Session ID: 16a1b9a64ce9183aceabf672421d907e
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)
+	at com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.executeWitoutLog(QAFExtendedWebDriver.java:255)
+	at com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebElement.execute(QAFExtendedWebElement.java:276)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at com.qmetry.qaf.automation.step.CommonStep.click_aroundBody38(CommonStep.java:452)
+	at com.qmetry.qaf.automation.step.CommonStep$AjcClosure39.run(CommonStep.java:1)
+	at org.aspectj.runtime.reflect.JoinPointImpl.proceed(JoinPointImpl.java:149)
+	at com.qmetry.qaf.automation.step.JavaStepReporter$MockJavaStep.doExecute(JavaStepReporter.java:130)
+	... 29 more
+2021-06-10 18:41:44  [com.qmetry.qaf.automation.step.TestStepListener] (main:) Completed Teststep: click on {loc} with arguments: [click.checkindateroom1]
+2021-06-10 18:41:44  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing screenshot parameters: {}
+2021-06-10 18:41:45  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing quit parameters: {}
+2021-06-10 18:41:45  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: quit[ param-1: {}] Result: null
+2021-06-10 18:41:45  [com.qmetry.qaf.automation.ui.UiDriverFactory] (main:) UI-driver tear down complete...
+2021-06-10 18:41:46  [com.qmetry.qaf.automation.ui.webdriver.ChromeDriverHelper] (Thread-0:) Stopping chrome driver service.
+2021-06-10 18:48:05  [com.qmetry.qaf.automation.util.ExcelUtil] (main:) Rows : 2
+2021-06-10 18:48:05  [com.qmetry.qaf.automation.util.ExcelUtil] (main:) Columns : 28
+2021-06-10 18:48:05  [com.qmetry.qaf.automation.step.TestStepListener] (main:) Invoking Teststep: get {url} with arguments: [/]
+2021-06-10 18:48:05  [com.qmetry.qaf.automation.core.QAFTestBase] (main:) Initializing Driver...browser_str:chromeDriver,base_url:https://demo.qloapps.com/,sel_server:localhost,port:4444
+2021-06-10 18:48:05  [com.qmetry.qaf.automation.ui.UiDriverFactory] (main:) Driver: chromeDriver
+2021-06-10 18:48:09  [com.qmetry.qaf.automation.core.QAFTestBase] (main:) driver init done
+2021-06-10 18:48:09  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing get parameters: {"url":"https://demo.qloapps.com/"}
+2021-06-10 18:48:17  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: get[ param-1: {url=https://demo.qloapps.com/}] Result: null
+2021-06-10 18:48:17  [com.qmetry.qaf.automation.step.TestStepListener] (main:) Completed Teststep: get {url} with arguments: [/]
+2021-06-10 18:48:17  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing maximizeCurrentWindow parameters: {}
+2021-06-10 18:48:17  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: maximizeCurrentWindow[ param-1: {}] Result: {width=1616, x=-8, y=-8, height=876}
+2021-06-10 18:48:17  [com.qmetry.qaf.automation.step.TestStepListener] (main:) Invoking Teststep: click on {loc} with arguments: [SignIn]
+2021-06-10 18:48:18  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing findElement element: By.xpath: //span[@class='hide_xs'] parameters: {}
+2021-06-10 18:48:18  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing findElement parameters: {"value":"//span[@class='hide_xs']","using":"xpath"}
+2021-06-10 18:48:18  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: findElement[ param-1: {value=//span[@class='hide_xs'], using=xpath}] Result: id: 0.31084940266123606-1
+2021-06-10 18:48:18  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: findElement[ param-1: By.xpath: //span[@class='hide_xs'] param-2: {}] Result: OK
+2021-06-10 18:48:18  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing clickElement element: By.xpath: //span[@class='hide_xs'] parameters: {"id":"0.31084940266123606-1"}
+2021-06-10 18:48:22  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: clickElement[ param-1: By.xpath: //span[@class='hide_xs'] param-2: {"id":"0.31084940266123606-1"}] Result: clickElement:null
+2021-06-10 18:48:22  [com.qmetry.qaf.automation.step.TestStepListener] (main:) Completed Teststep: click on {loc} with arguments: [SignIn]
+2021-06-10 18:48:24  [com.qmetry.qaf.automation.step.TestStepListener] (main:) Invoking Teststep: clear {loc} with arguments: [InputEmailID]
+2021-06-10 18:48:24  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing findElement element: By.xpath: //*[@id='email'] parameters: {}
+2021-06-10 18:48:24  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing findElement parameters: {"value":"//*[@id='email']","using":"xpath"}
+2021-06-10 18:48:24  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: findElement[ param-1: {value=//*[@id='email'], using=xpath}] Result: id: 0.9222748520487507-1
+2021-06-10 18:48:24  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: findElement[ param-1: By.xpath: //*[@id='email'] param-2: {}] Result: OK
+2021-06-10 18:48:24  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing clearElement element: By.xpath: //*[@id='email'] parameters: {"id":"0.9222748520487507-1"}
+2021-06-10 18:48:24  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: clearElement[ param-1: By.xpath: //*[@id='email'] param-2: {"id":"0.9222748520487507-1"}] Result: clearElement:null
+2021-06-10 18:48:24  [com.qmetry.qaf.automation.step.TestStepListener] (main:) Completed Teststep: clear {loc} with arguments: [InputEmailID]
+2021-06-10 18:48:24  [com.qmetry.qaf.automation.step.TestStepListener] (main:) Invoking Teststep: sendKeys {text} into {loc} with arguments: [aarathi91@gmail.com, InputEmailID]
+2021-06-10 18:48:24  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing findElement element: By.xpath: //*[@id='email'] parameters: {}
+2021-06-10 18:48:24  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing findElement parameters: {"value":"//*[@id='email']","using":"xpath"}
+2021-06-10 18:48:24  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: findElement[ param-1: {value=//*[@id='email'], using=xpath}] Result: id: 0.9222748520487507-1
+2021-06-10 18:48:24  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: findElement[ param-1: By.xpath: //*[@id='email'] param-2: {}] Result: OK
+2021-06-10 18:48:24  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing sendKeysToElement element: By.xpath: //*[@id='email'] parameters: {"value":["aarathi91@gmail.com"],"id":"0.9222748520487507-1"}
+2021-06-10 18:48:24  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: sendKeysToElement[ param-1: By.xpath: //*[@id='email'] param-2: {"value":["aarathi91@gmail.com"],"id":"0.9222748520487507-1"}] Result: sendKeysToElement:null
+2021-06-10 18:48:24  [com.qmetry.qaf.automation.step.TestStepListener] (main:) Completed Teststep: sendKeys {text} into {loc} with arguments: [aarathi91@gmail.com, InputEmailID]
+2021-06-10 18:48:26  [com.qmetry.qaf.automation.step.TestStepListener] (main:) Invoking Teststep: clear {loc} with arguments: [InputPassword]
+2021-06-10 18:48:26  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing findElement element: By.xpath: //*[@id='passwd'] parameters: {}
+2021-06-10 18:48:26  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing findElement parameters: {"value":"//*[@id='passwd']","using":"xpath"}
+2021-06-10 18:48:26  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: findElement[ param-1: {value=//*[@id='passwd'], using=xpath}] Result: id: 0.9222748520487507-3
+2021-06-10 18:48:26  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: findElement[ param-1: By.xpath: //*[@id='passwd'] param-2: {}] Result: OK
+2021-06-10 18:48:26  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing clearElement element: By.xpath: //*[@id='passwd'] parameters: {"id":"0.9222748520487507-3"}
+2021-06-10 18:48:26  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: clearElement[ param-1: By.xpath: //*[@id='passwd'] param-2: {"id":"0.9222748520487507-3"}] Result: clearElement:null
+2021-06-10 18:48:26  [com.qmetry.qaf.automation.step.TestStepListener] (main:) Completed Teststep: clear {loc} with arguments: [InputPassword]
+2021-06-10 18:48:26  [com.qmetry.qaf.automation.step.TestStepListener] (main:) Invoking Teststep: sendKeys {text} into {loc} with arguments: [Welcome@123, InputPassword]
+2021-06-10 18:48:26  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing findElement element: By.xpath: //*[@id='passwd'] parameters: {}
+2021-06-10 18:48:26  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing findElement parameters: {"value":"//*[@id='passwd']","using":"xpath"}
+2021-06-10 18:48:26  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: findElement[ param-1: {value=//*[@id='passwd'], using=xpath}] Result: id: 0.9222748520487507-3
+2021-06-10 18:48:26  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: findElement[ param-1: By.xpath: //*[@id='passwd'] param-2: {}] Result: OK
+2021-06-10 18:48:26  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing sendKeysToElement element: By.xpath: //*[@id='passwd'] parameters: {"value":["Welcome@123"],"id":"0.9222748520487507-3"}
+2021-06-10 18:48:27  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: sendKeysToElement[ param-1: By.xpath: //*[@id='passwd'] param-2: {"value":["Welcome@123"],"id":"0.9222748520487507-3"}] Result: sendKeysToElement:null
+2021-06-10 18:48:27  [com.qmetry.qaf.automation.step.TestStepListener] (main:) Completed Teststep: sendKeys {text} into {loc} with arguments: [Welcome@123, InputPassword]
+2021-06-10 18:48:29  [com.qmetry.qaf.automation.step.TestStepListener] (main:) Invoking Teststep: click on {loc} with arguments: [Login]
+2021-06-10 18:48:29  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing findElement element: By.xpath: //*[@id='SubmitLogin']/span parameters: {}
+2021-06-10 18:48:29  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing findElement parameters: {"value":"//*[@id='SubmitLogin']/span","using":"xpath"}
+2021-06-10 18:48:29  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: findElement[ param-1: {value=//*[@id='SubmitLogin']/span, using=xpath}] Result: id: 0.9222748520487507-4
+2021-06-10 18:48:29  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: findElement[ param-1: By.xpath: //*[@id='SubmitLogin']/span param-2: {}] Result: OK
+2021-06-10 18:48:29  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing clickElement element: By.xpath: //*[@id='SubmitLogin']/span parameters: {"id":"0.9222748520487507-4"}
+2021-06-10 18:48:32  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: clickElement[ param-1: By.xpath: //*[@id='SubmitLogin']/span param-2: {"id":"0.9222748520487507-4"}] Result: clickElement:null
+2021-06-10 18:48:32  [com.qmetry.qaf.automation.step.TestStepListener] (main:) Completed Teststep: click on {loc} with arguments: [Login]
+2021-06-10 18:48:34  [com.qmetry.qaf.automation.step.TestStepListener] (main:) Invoking Teststep: click on {loc} with arguments: [Orderhistory]
+2021-06-10 18:48:34  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing findElement element: By.xpath: //*[@id='center_column']/div/div/ul/li[1]/a/span parameters: {}
+2021-06-10 18:48:34  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing findElement parameters: {"value":"//*[@id='center_column']/div/div/ul/li[1]/a/span","using":"xpath"}
+2021-06-10 18:48:34  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: findElement[ param-1: {value=//*[@id='center_column']/div/div/ul/li[1]/a/span, using=xpath}] Result: id: 0.4461029306650095-1
+2021-06-10 18:48:34  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: findElement[ param-1: By.xpath: //*[@id='center_column']/div/div/ul/li[1]/a/span param-2: {}] Result: OK
+2021-06-10 18:48:34  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing clickElement element: By.xpath: //*[@id='center_column']/div/div/ul/li[1]/a/span parameters: {"id":"0.4461029306650095-1"}
+2021-06-10 18:48:35  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: clickElement[ param-1: By.xpath: //*[@id='center_column']/div/div/ul/li[1]/a/span param-2: {"id":"0.4461029306650095-1"}] Result: clickElement:null
+2021-06-10 18:48:35  [com.qmetry.qaf.automation.step.TestStepListener] (main:) Completed Teststep: click on {loc} with arguments: [Orderhistory]
+2021-06-10 18:48:39  [com.qmetry.qaf.automation.step.TestStepListener] (main:) Invoking Teststep: click on {loc} with arguments: [Details]
+2021-06-10 18:48:39  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing findElement element: By.xpath: //*[@id='order-list']/tbody/tr[1]/td[7]/a/span parameters: {}
+2021-06-10 18:48:39  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing findElement parameters: {"value":"//*[@id='order-list']/tbody/tr[1]/td[7]/a/span","using":"xpath"}
+2021-06-10 18:48:39  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: findElement[ param-1: {value=//*[@id='order-list']/tbody/tr[1]/td[7]/a/span, using=xpath}] Result: id: 0.21051966014297463-1
+2021-06-10 18:48:39  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: findElement[ param-1: By.xpath: //*[@id='order-list']/tbody/tr[1]/td[7]/a/span param-2: {}] Result: OK
+2021-06-10 18:48:39  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing clickElement element: By.xpath: //*[@id='order-list']/tbody/tr[1]/td[7]/a/span parameters: {"id":"0.21051966014297463-1"}
+2021-06-10 18:48:39  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: clickElement[ param-1: By.xpath: //*[@id='order-list']/tbody/tr[1]/td[7]/a/span param-2: {"id":"0.21051966014297463-1"}] Result: clickElement:null
+2021-06-10 18:48:39  [com.qmetry.qaf.automation.step.TestStepListener] (main:) Completed Teststep: click on {loc} with arguments: [Details]
+2021-06-10 18:48:43  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing screenshot parameters: {}
+2021-06-10 18:48:47  [com.qmetry.qaf.automation.step.TestStepListener] (main:) Invoking Teststep: click on {loc} with arguments: [Cancelorder]
+2021-06-10 18:48:47  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing findElement element: By.xpath: //*[@id='order_refund_request']/span parameters: {}
+2021-06-10 18:48:47  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing findElement parameters: {"value":"//*[@id='order_refund_request']/span","using":"xpath"}
+2021-06-10 18:48:47  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: findElement[ param-1: {value=//*[@id='order_refund_request']/span, using=xpath}] Result: id: 0.21051966014297463-2
+2021-06-10 18:48:47  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: findElement[ param-1: By.xpath: //*[@id='order_refund_request']/span param-2: {}] Result: OK
+2021-06-10 18:48:47  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing clickElement element: By.xpath: //*[@id='order_refund_request']/span parameters: {"id":"0.21051966014297463-2"}
+2021-06-10 18:48:48  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: clickElement[ param-1: By.xpath: //*[@id='order_refund_request']/span param-2: {"id":"0.21051966014297463-2"}] Result: element click intercepted: Element <span>...</span> is not clickable at point (1279, 736). Other element would receive the click: <div class="row" id="wk-demolinks-container">...</div>
+  (Session info: chrome=91.0.4472.77)
+  (Driver info: chromedriver=90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}),platform=Windows NT 10.0.19042 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 1.15 seconds
+Build info: version: '3.0.0', revision: '350cf60', time: '2016-10-13 10:48:57 -0700'
+System info: host: 'DESKTOP-6BF1I8Q', ip: '192.168.29.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:49954}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, webauthn:extension:largeBlob=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}), userDataDir=C:\Users\91994\AppData\Local\Temp\scoped_dir28852_439988451}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=91.0.4472.77, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
+Session ID: 24a0f9786cc2312bd96c3ee0fe5fa598
+2021-06-10 18:48:48  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing findElements parameters: {"value":"//*[@id='order_refund_request']/span","using":"xpath"}
+2021-06-10 18:48:48  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: findElements[ param-1: {value=//*[@id='order_refund_request']/span, using=xpath}] Result: [id: 0.21051966014297463-2]
+2021-06-10 18:48:48  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing executeScript parameters: {"args":[{"element-6066-11e4-a52e-4f735466cecf":"0.21051966014297463-2","ELEMENT":"0.21051966014297463-2"}],"script":"arguments[0].scrollIntoView();"}
+2021-06-10 18:48:48  [com.qmetry.qaf.automation.step.TestStepListener] (main:) Completed Teststep: click on {loc} with arguments: [Cancelorder]
+2021-06-10 18:48:50  [com.qmetry.qaf.automation.step.TestStepListener] (main:) Invoking Teststep: click on {loc} with arguments: [Room1cancel]
+2021-06-10 18:48:50  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing findElement element: By.xpath: //*[@id='block-order-detail']/form[1]/div[2]/table/tbody/tr/td[1]/div/label/input parameters: {}
+2021-06-10 18:48:50  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing findElement parameters: {"value":"//*[@id='block-order-detail']/form[1]/div[2]/table/tbody/tr/td[1]/div/label/input","using":"xpath"}
+2021-06-10 18:48:50  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: findElement[ param-1: {value=//*[@id='block-order-detail']/form[1]/div[2]/table/tbody/tr/td[1]/div/label/input, using=xpath}] Result: id: 0.21051966014297463-3
+2021-06-10 18:48:50  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: findElement[ param-1: By.xpath: //*[@id='block-order-detail']/form[1]/div[2]/table/tbody/tr/td[1]/div/label/input param-2: {}] Result: OK
+2021-06-10 18:48:50  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing clickElement element: By.xpath: //*[@id='block-order-detail']/form[1]/div[2]/table/tbody/tr/td[1]/div/label/input parameters: {"id":"0.21051966014297463-3"}
+2021-06-10 18:48:50  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: clickElement[ param-1: By.xpath: //*[@id='block-order-detail']/form[1]/div[2]/table/tbody/tr/td[1]/div/label/input param-2: {"id":"0.21051966014297463-3"}] Result: clickElement:null
+2021-06-10 18:48:50  [com.qmetry.qaf.automation.step.TestStepListener] (main:) Completed Teststep: click on {loc} with arguments: [Room1cancel]
+2021-06-10 18:48:52  [com.qmetry.qaf.automation.step.TestStepListener] (main:) Invoking Teststep: click on {loc} with arguments: [CancelSubmit]
+2021-06-10 18:48:52  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing findElement element: By.xpath: //*[@id='order_refund_request_submit']/span parameters: {}
+2021-06-10 18:48:52  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing findElement parameters: {"value":"//*[@id='order_refund_request_submit']/span","using":"xpath"}
+2021-06-10 18:48:52  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: findElement[ param-1: {value=//*[@id='order_refund_request_submit']/span, using=xpath}] Result: id: 0.21051966014297463-4
+2021-06-10 18:48:52  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: findElement[ param-1: By.xpath: //*[@id='order_refund_request_submit']/span param-2: {}] Result: OK
+2021-06-10 18:48:52  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing clickElement element: By.xpath: //*[@id='order_refund_request_submit']/span parameters: {"id":"0.21051966014297463-4"}
+2021-06-10 18:48:52  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: clickElement[ param-1: By.xpath: //*[@id='order_refund_request_submit']/span param-2: {"id":"0.21051966014297463-4"}] Result: clickElement:null
+2021-06-10 18:48:52  [com.qmetry.qaf.automation.step.TestStepListener] (main:) Completed Teststep: click on {loc} with arguments: [CancelSubmit]
+2021-06-10 18:48:55  [com.qmetry.qaf.automation.step.TestStepListener] (main:) Invoking Teststep: sendKeys {text} into {loc} with arguments: [Test, Popup]
+2021-06-10 18:48:55  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing findElement element: By.xpath: //*[@id='htlRefundReasonForm']/div/textarea parameters: {}
+2021-06-10 18:48:55  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing findElement parameters: {"value":"//*[@id='htlRefundReasonForm']/div/textarea","using":"xpath"}
+2021-06-10 18:48:56  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: findElement[ param-1: {value=//*[@id='htlRefundReasonForm']/div/textarea, using=xpath}] Result: id: 0.21051966014297463-5
+2021-06-10 18:48:56  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: findElement[ param-1: By.xpath: //*[@id='htlRefundReasonForm']/div/textarea param-2: {}] Result: OK
+2021-06-10 18:48:56  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing sendKeysToElement element: By.xpath: //*[@id='htlRefundReasonForm']/div/textarea parameters: {"value":["Test"],"id":"0.21051966014297463-5"}
+2021-06-10 18:48:56  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: sendKeysToElement[ param-1: By.xpath: //*[@id='htlRefundReasonForm']/div/textarea param-2: {"value":["Test"],"id":"0.21051966014297463-5"}] Result: sendKeysToElement:null
+2021-06-10 18:48:56  [com.qmetry.qaf.automation.step.TestStepListener] (main:) Completed Teststep: sendKeys {text} into {loc} with arguments: [Test, Popup]
+2021-06-10 18:48:59  [com.qmetry.qaf.automation.step.TestStepListener] (main:) Invoking Teststep: click on {loc} with arguments: [Enter]
+2021-06-10 18:48:59  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing findElement element: By.xpath: //*[@id='submit_refund_reason']/span parameters: {}
+2021-06-10 18:48:59  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing findElement parameters: {"value":"//*[@id='submit_refund_reason']/span","using":"xpath"}
+2021-06-10 18:48:59  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: findElement[ param-1: {value=//*[@id='submit_refund_reason']/span, using=xpath}] Result: id: 0.21051966014297463-7
+2021-06-10 18:48:59  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: findElement[ param-1: By.xpath: //*[@id='submit_refund_reason']/span param-2: {}] Result: OK
+2021-06-10 18:48:59  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing clickElement element: By.xpath: //*[@id='submit_refund_reason']/span parameters: {"id":"0.21051966014297463-7"}
+2021-06-10 18:48:59  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: clickElement[ param-1: By.xpath: //*[@id='submit_refund_reason']/span param-2: {"id":"0.21051966014297463-7"}] Result: clickElement:null
+2021-06-10 18:48:59  [com.qmetry.qaf.automation.step.TestStepListener] (main:) Completed Teststep: click on {loc} with arguments: [Enter]
+2021-06-10 18:49:01  [qaf.Logs.Log] (main:) Order Cancelled
+2021-06-10 18:49:01  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing quit parameters: {}
+2021-06-10 18:49:01  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: quit[ param-1: {}] Result: null
+2021-06-10 18:49:01  [com.qmetry.qaf.automation.ui.UiDriverFactory] (main:) UI-driver tear down complete...
+2021-06-10 18:49:01  [com.qmetry.qaf.automation.ui.webdriver.ChromeDriverHelper] (Thread-0:) Stopping chrome driver service.
+2021-06-10 18:49:15  [com.qmetry.qaf.automation.util.ExcelUtil] (main:) Rows : 2
+2021-06-10 18:49:15  [com.qmetry.qaf.automation.util.ExcelUtil] (main:) Columns : 28
+2021-06-10 18:49:16  [com.qmetry.qaf.automation.step.TestStepListener] (main:) Invoking Teststep: get {url} with arguments: [/]
+2021-06-10 18:49:16  [com.qmetry.qaf.automation.core.QAFTestBase] (main:) Initializing Driver...browser_str:chromeDriver,base_url:https://demo.qloapps.com/,sel_server:localhost,port:4444
+2021-06-10 18:49:16  [com.qmetry.qaf.automation.ui.UiDriverFactory] (main:) Driver: chromeDriver
+2021-06-10 18:49:20  [com.qmetry.qaf.automation.core.QAFTestBase] (main:) driver init done
+2021-06-10 18:49:20  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing get parameters: {"url":"https://demo.qloapps.com/"}
+2021-06-10 18:49:27  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: get[ param-1: {url=https://demo.qloapps.com/}] Result: null
+2021-06-10 18:49:27  [com.qmetry.qaf.automation.step.TestStepListener] (main:) Completed Teststep: get {url} with arguments: [/]
+2021-06-10 18:49:27  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing maximizeCurrentWindow parameters: {}
+2021-06-10 18:49:27  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: maximizeCurrentWindow[ param-1: {}] Result: {width=1616, x=-8, y=-8, height=876}
+2021-06-10 18:49:27  [com.qmetry.qaf.automation.step.TestStepListener] (main:) Invoking Teststep: click on {loc} with arguments: [SignIn]
+2021-06-10 18:49:27  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing findElement element: By.xpath: //span[@class='hide_xs'] parameters: {}
+2021-06-10 18:49:27  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing findElement parameters: {"value":"//span[@class='hide_xs']","using":"xpath"}
+2021-06-10 18:49:27  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: findElement[ param-1: {value=//span[@class='hide_xs'], using=xpath}] Result: id: 0.7496292380904346-1
+2021-06-10 18:49:27  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: findElement[ param-1: By.xpath: //span[@class='hide_xs'] param-2: {}] Result: OK
+2021-06-10 18:49:27  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing clickElement element: By.xpath: //span[@class='hide_xs'] parameters: {"id":"0.7496292380904346-1"}
+2021-06-10 18:49:30  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: clickElement[ param-1: By.xpath: //span[@class='hide_xs'] param-2: {"id":"0.7496292380904346-1"}] Result: clickElement:null
+2021-06-10 18:49:30  [com.qmetry.qaf.automation.step.TestStepListener] (main:) Completed Teststep: click on {loc} with arguments: [SignIn]
+2021-06-10 18:49:32  [com.qmetry.qaf.automation.step.TestStepListener] (main:) Invoking Teststep: clear {loc} with arguments: [InputEmailID]
+2021-06-10 18:49:32  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing findElement element: By.xpath: //*[@id='email'] parameters: {}
+2021-06-10 18:49:32  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing findElement parameters: {"value":"//*[@id='email']","using":"xpath"}
+2021-06-10 18:49:32  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: findElement[ param-1: {value=//*[@id='email'], using=xpath}] Result: id: 0.5408092302497332-1
+2021-06-10 18:49:32  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: findElement[ param-1: By.xpath: //*[@id='email'] param-2: {}] Result: OK
+2021-06-10 18:49:32  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing clearElement element: By.xpath: //*[@id='email'] parameters: {"id":"0.5408092302497332-1"}
+2021-06-10 18:49:32  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: clearElement[ param-1: By.xpath: //*[@id='email'] param-2: {"id":"0.5408092302497332-1"}] Result: clearElement:null
+2021-06-10 18:49:32  [com.qmetry.qaf.automation.step.TestStepListener] (main:) Completed Teststep: clear {loc} with arguments: [InputEmailID]
+2021-06-10 18:49:32  [com.qmetry.qaf.automation.step.TestStepListener] (main:) Invoking Teststep: sendKeys {text} into {loc} with arguments: [aarathi91@gmail.com, InputEmailID]
+2021-06-10 18:49:32  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing findElement element: By.xpath: //*[@id='email'] parameters: {}
+2021-06-10 18:49:32  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing findElement parameters: {"value":"//*[@id='email']","using":"xpath"}
+2021-06-10 18:49:32  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: findElement[ param-1: {value=//*[@id='email'], using=xpath}] Result: id: 0.5408092302497332-1
+2021-06-10 18:49:32  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: findElement[ param-1: By.xpath: //*[@id='email'] param-2: {}] Result: OK
+2021-06-10 18:49:32  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing sendKeysToElement element: By.xpath: //*[@id='email'] parameters: {"value":["aarathi91@gmail.com"],"id":"0.5408092302497332-1"}
+2021-06-10 18:49:33  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: sendKeysToElement[ param-1: By.xpath: //*[@id='email'] param-2: {"value":["aarathi91@gmail.com"],"id":"0.5408092302497332-1"}] Result: sendKeysToElement:null
+2021-06-10 18:49:33  [com.qmetry.qaf.automation.step.TestStepListener] (main:) Completed Teststep: sendKeys {text} into {loc} with arguments: [aarathi91@gmail.com, InputEmailID]
+2021-06-10 18:49:35  [com.qmetry.qaf.automation.step.TestStepListener] (main:) Invoking Teststep: clear {loc} with arguments: [InputPassword]
+2021-06-10 18:49:35  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing findElement element: By.xpath: //*[@id='passwd'] parameters: {}
+2021-06-10 18:49:35  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing findElement parameters: {"value":"//*[@id='passwd']","using":"xpath"}
+2021-06-10 18:49:35  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: findElement[ param-1: {value=//*[@id='passwd'], using=xpath}] Result: id: 0.5408092302497332-3
+2021-06-10 18:49:35  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: findElement[ param-1: By.xpath: //*[@id='passwd'] param-2: {}] Result: OK
+2021-06-10 18:49:35  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing clearElement element: By.xpath: //*[@id='passwd'] parameters: {"id":"0.5408092302497332-3"}
+2021-06-10 18:49:35  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: clearElement[ param-1: By.xpath: //*[@id='passwd'] param-2: {"id":"0.5408092302497332-3"}] Result: clearElement:null
+2021-06-10 18:49:35  [com.qmetry.qaf.automation.step.TestStepListener] (main:) Completed Teststep: clear {loc} with arguments: [InputPassword]
+2021-06-10 18:49:35  [com.qmetry.qaf.automation.step.TestStepListener] (main:) Invoking Teststep: sendKeys {text} into {loc} with arguments: [Welcome@123, InputPassword]
+2021-06-10 18:49:35  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing findElement element: By.xpath: //*[@id='passwd'] parameters: {}
+2021-06-10 18:49:35  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing findElement parameters: {"value":"//*[@id='passwd']","using":"xpath"}
+2021-06-10 18:49:35  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: findElement[ param-1: {value=//*[@id='passwd'], using=xpath}] Result: id: 0.5408092302497332-3
+2021-06-10 18:49:35  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: findElement[ param-1: By.xpath: //*[@id='passwd'] param-2: {}] Result: OK
+2021-06-10 18:49:35  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing sendKeysToElement element: By.xpath: //*[@id='passwd'] parameters: {"value":["Welcome@123"],"id":"0.5408092302497332-3"}
+2021-06-10 18:49:35  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: sendKeysToElement[ param-1: By.xpath: //*[@id='passwd'] param-2: {"value":["Welcome@123"],"id":"0.5408092302497332-3"}] Result: sendKeysToElement:null
+2021-06-10 18:49:35  [com.qmetry.qaf.automation.step.TestStepListener] (main:) Completed Teststep: sendKeys {text} into {loc} with arguments: [Welcome@123, InputPassword]
+2021-06-10 18:49:37  [com.qmetry.qaf.automation.step.TestStepListener] (main:) Invoking Teststep: click on {loc} with arguments: [Login]
+2021-06-10 18:49:37  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing findElement element: By.xpath: //*[@id='SubmitLogin']/span parameters: {}
+2021-06-10 18:49:37  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing findElement parameters: {"value":"//*[@id='SubmitLogin']/span","using":"xpath"}
+2021-06-10 18:49:37  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: findElement[ param-1: {value=//*[@id='SubmitLogin']/span, using=xpath}] Result: id: 0.5408092302497332-4
+2021-06-10 18:49:37  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: findElement[ param-1: By.xpath: //*[@id='SubmitLogin']/span param-2: {}] Result: OK
+2021-06-10 18:49:37  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing clickElement element: By.xpath: //*[@id='SubmitLogin']/span parameters: {"id":"0.5408092302497332-4"}
+2021-06-10 18:49:39  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: clickElement[ param-1: By.xpath: //*[@id='SubmitLogin']/span param-2: {"id":"0.5408092302497332-4"}] Result: clickElement:null
+2021-06-10 18:49:39  [com.qmetry.qaf.automation.step.TestStepListener] (main:) Completed Teststep: click on {loc} with arguments: [Login]
+2021-06-10 18:49:41  [com.qmetry.qaf.automation.step.TestStepListener] (main:) Invoking Teststep: click on {loc} with arguments: [Personaldetails]
+2021-06-10 18:49:41  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing findElement element: By.xpath: //*[@id='center_column']/div/div/ul/li[5]/a/span parameters: {}
+2021-06-10 18:49:41  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing findElement parameters: {"value":"//*[@id='center_column']/div/div/ul/li[5]/a/span","using":"xpath"}
+2021-06-10 18:49:41  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: findElement[ param-1: {value=//*[@id='center_column']/div/div/ul/li[5]/a/span, using=xpath}] Result: id: 0.8056018165083592-1
+2021-06-10 18:49:41  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: findElement[ param-1: By.xpath: //*[@id='center_column']/div/div/ul/li[5]/a/span param-2: {}] Result: OK
+2021-06-10 18:49:41  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing clickElement element: By.xpath: //*[@id='center_column']/div/div/ul/li[5]/a/span parameters: {"id":"0.8056018165083592-1"}
+2021-06-10 18:49:43  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: clickElement[ param-1: By.xpath: //*[@id='center_column']/div/div/ul/li[5]/a/span param-2: {"id":"0.8056018165083592-1"}] Result: clickElement:null
+2021-06-10 18:49:43  [com.qmetry.qaf.automation.step.TestStepListener] (main:) Completed Teststep: click on {loc} with arguments: [Personaldetails]
+2021-06-10 18:49:45  [com.qmetry.qaf.automation.step.TestStepListener] (main:) Invoking Teststep: clear {loc} with arguments: [Fname]
+2021-06-10 18:49:45  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing findElement element: By.xpath: //*[@id='firstname'] parameters: {}
+2021-06-10 18:49:45  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing findElement parameters: {"value":"//*[@id='firstname']","using":"xpath"}
+2021-06-10 18:49:45  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: findElement[ param-1: {value=//*[@id='firstname'], using=xpath}] Result: id: 0.7097548210795201-1
+2021-06-10 18:49:45  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: findElement[ param-1: By.xpath: //*[@id='firstname'] param-2: {}] Result: OK
+2021-06-10 18:49:45  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing clearElement element: By.xpath: //*[@id='firstname'] parameters: {"id":"0.7097548210795201-1"}
+2021-06-10 18:49:45  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: clearElement[ param-1: By.xpath: //*[@id='firstname'] param-2: {"id":"0.7097548210795201-1"}] Result: clearElement:null
+2021-06-10 18:49:45  [com.qmetry.qaf.automation.step.TestStepListener] (main:) Completed Teststep: clear {loc} with arguments: [Fname]
+2021-06-10 18:49:45  [com.qmetry.qaf.automation.step.TestStepListener] (main:) Invoking Teststep: sendKeys {text} into {loc} with arguments: [AarathiMani, Fname]
+2021-06-10 18:49:45  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing findElement element: By.xpath: //*[@id='firstname'] parameters: {}
+2021-06-10 18:49:45  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing findElement parameters: {"value":"//*[@id='firstname']","using":"xpath"}
+2021-06-10 18:49:45  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: findElement[ param-1: {value=//*[@id='firstname'], using=xpath}] Result: id: 0.7097548210795201-1
+2021-06-10 18:49:45  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: findElement[ param-1: By.xpath: //*[@id='firstname'] param-2: {}] Result: OK
+2021-06-10 18:49:45  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing sendKeysToElement element: By.xpath: //*[@id='firstname'] parameters: {"value":["AarathiMani"],"id":"0.7097548210795201-1"}
+2021-06-10 18:49:45  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: sendKeysToElement[ param-1: By.xpath: //*[@id='firstname'] param-2: {"value":["AarathiMani"],"id":"0.7097548210795201-1"}] Result: sendKeysToElement:null
+2021-06-10 18:49:45  [com.qmetry.qaf.automation.step.TestStepListener] (main:) Completed Teststep: sendKeys {text} into {loc} with arguments: [AarathiMani, Fname]
+2021-06-10 18:49:47  [com.qmetry.qaf.automation.step.TestStepListener] (main:) Invoking Teststep: sendKeys {text} into {loc} with arguments: [27, Dateborn]
+2021-06-10 18:49:47  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing findElement element: By.xpath: //*[@id='days'] parameters: {}
+2021-06-10 18:49:47  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing findElement parameters: {"value":"//*[@id='days']","using":"xpath"}
+2021-06-10 18:49:47  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: findElement[ param-1: {value=//*[@id='days'], using=xpath}] Result: id: 0.7097548210795201-3
+2021-06-10 18:49:47  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: findElement[ param-1: By.xpath: //*[@id='days'] param-2: {}] Result: OK
+2021-06-10 18:49:47  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing sendKeysToElement element: By.xpath: //*[@id='days'] parameters: {"value":["27"],"id":"0.7097548210795201-3"}
+2021-06-10 18:49:48  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: sendKeysToElement[ param-1: By.xpath: //*[@id='days'] param-2: {"value":["27"],"id":"0.7097548210795201-3"}] Result: sendKeysToElement:null
+2021-06-10 18:49:48  [com.qmetry.qaf.automation.step.TestStepListener] (main:) Completed Teststep: sendKeys {text} into {loc} with arguments: [27, Dateborn]
+2021-06-10 18:49:50  [com.qmetry.qaf.automation.step.TestStepListener] (main:) Invoking Teststep: sendKeys {text} into {loc} with arguments: [June, Monthborn]
+2021-06-10 18:49:50  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing findElement element: By.xpath: //*[@id='months'] parameters: {}
+2021-06-10 18:49:50  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing findElement parameters: {"value":"//*[@id='months']","using":"xpath"}
+2021-06-10 18:49:50  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: findElement[ param-1: {value=//*[@id='months'], using=xpath}] Result: id: 0.7097548210795201-4
+2021-06-10 18:49:50  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: findElement[ param-1: By.xpath: //*[@id='months'] param-2: {}] Result: OK
+2021-06-10 18:49:50  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing sendKeysToElement element: By.xpath: //*[@id='months'] parameters: {"value":["June"],"id":"0.7097548210795201-4"}
+2021-06-10 18:49:50  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: sendKeysToElement[ param-1: By.xpath: //*[@id='months'] param-2: {"value":["June"],"id":"0.7097548210795201-4"}] Result: sendKeysToElement:null
+2021-06-10 18:49:50  [com.qmetry.qaf.automation.step.TestStepListener] (main:) Completed Teststep: sendKeys {text} into {loc} with arguments: [June, Monthborn]
+2021-06-10 18:49:52  [com.qmetry.qaf.automation.step.TestStepListener] (main:) Invoking Teststep: sendKeys {text} into {loc} with arguments: [Welcome@123, CurrentPassword]
+2021-06-10 18:49:52  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing findElement element: By.xpath: //*[@id='old_passwd'] parameters: {}
+2021-06-10 18:49:52  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing findElement parameters: {"value":"//*[@id='old_passwd']","using":"xpath"}
+2021-06-10 18:49:52  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: findElement[ param-1: {value=//*[@id='old_passwd'], using=xpath}] Result: id: 0.7097548210795201-5
+2021-06-10 18:49:52  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: findElement[ param-1: By.xpath: //*[@id='old_passwd'] param-2: {}] Result: OK
+2021-06-10 18:49:52  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing sendKeysToElement element: By.xpath: //*[@id='old_passwd'] parameters: {"value":["Welcome@123"],"id":"0.7097548210795201-5"}
+2021-06-10 18:49:52  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: sendKeysToElement[ param-1: By.xpath: //*[@id='old_passwd'] param-2: {"value":["Welcome@123"],"id":"0.7097548210795201-5"}] Result: sendKeysToElement:null
+2021-06-10 18:49:52  [com.qmetry.qaf.automation.step.TestStepListener] (main:) Completed Teststep: sendKeys {text} into {loc} with arguments: [Welcome@123, CurrentPassword]
+2021-06-10 18:49:54  [com.qmetry.qaf.automation.step.TestStepListener] (main:) Invoking Teststep: click on {loc} with arguments: [ModifySave]
+2021-06-10 18:49:54  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing findElement element: By.xpath: //*[@id='center_column']/div/form/fieldset/div[11]/button/span parameters: {}
+2021-06-10 18:49:54  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing findElement parameters: {"value":"//*[@id='center_column']/div/form/fieldset/div[11]/button/span","using":"xpath"}
+2021-06-10 18:49:54  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: findElement[ param-1: {value=//*[@id='center_column']/div/form/fieldset/div[11]/button/span, using=xpath}] Result: id: 0.7097548210795201-6
+2021-06-10 18:49:54  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: findElement[ param-1: By.xpath: //*[@id='center_column']/div/form/fieldset/div[11]/button/span param-2: {}] Result: OK
+2021-06-10 18:49:54  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing clickElement element: By.xpath: //*[@id='center_column']/div/form/fieldset/div[11]/button/span parameters: {"id":"0.7097548210795201-6"}
+2021-06-10 18:49:55  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: clickElement[ param-1: By.xpath: //*[@id='center_column']/div/form/fieldset/div[11]/button/span param-2: {"id":"0.7097548210795201-6"}] Result: element click intercepted: Element <span>...</span> is not clickable at point (279, 723). Other element would receive the click: <p style="margin: 0px;">...</p>
+  (Session info: chrome=91.0.4472.77)
+  (Driver info: chromedriver=90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}),platform=Windows NT 10.0.19042 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 1.06 seconds
+Build info: version: '3.0.0', revision: '350cf60', time: '2016-10-13 10:48:57 -0700'
+System info: host: 'DESKTOP-6BF1I8Q', ip: '192.168.29.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:64809}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, webauthn:extension:largeBlob=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}), userDataDir=C:\Users\91994\AppData\Local\Temp\scoped_dir2732_33892470}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=91.0.4472.77, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
+Session ID: 6706728f34ae42c63413c5707d38a22a
+2021-06-10 18:49:55  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing findElements parameters: {"value":"//*[@id='center_column']/div/form/fieldset/div[11]/button/span","using":"xpath"}
+2021-06-10 18:49:55  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: findElements[ param-1: {value=//*[@id='center_column']/div/form/fieldset/div[11]/button/span, using=xpath}] Result: [id: 0.7097548210795201-6]
+2021-06-10 18:49:55  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing executeScript parameters: {"args":[{"element-6066-11e4-a52e-4f735466cecf":"0.7097548210795201-6","ELEMENT":"0.7097548210795201-6"}],"script":"arguments[0].scrollIntoView();"}
+2021-06-10 18:49:56  [com.qmetry.qaf.automation.step.TestStepListener] (main:) Completed Teststep: click on {loc} with arguments: [ModifySave]
+2021-06-10 18:49:58  [com.qmetry.qaf.automation.step.TestStepListener] (main:) Invoking Teststep: click on {loc} with arguments: [Modifyuserinfo]
+2021-06-10 18:49:58  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing findElement element: By.xpath: //*[@id='user_info_acc']/span[1] parameters: {}
+2021-06-10 18:49:58  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing findElement parameters: {"value":"//*[@id='user_info_acc']/span[1]","using":"xpath"}
+2021-06-10 18:49:58  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: findElement[ param-1: {value=//*[@id='user_info_acc']/span[1], using=xpath}] Result: id: 0.2978904547289407-1
+2021-06-10 18:49:58  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: findElement[ param-1: By.xpath: //*[@id='user_info_acc']/span[1] param-2: {}] Result: OK
+2021-06-10 18:49:58  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing clickElement element: By.xpath: //*[@id='user_info_acc']/span[1] parameters: {"id":"0.2978904547289407-1"}
+2021-06-10 18:49:58  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: clickElement[ param-1: By.xpath: //*[@id='user_info_acc']/span[1] param-2: {"id":"0.2978904547289407-1"}] Result: clickElement:null
+2021-06-10 18:49:58  [com.qmetry.qaf.automation.step.TestStepListener] (main:) Completed Teststep: click on {loc} with arguments: [Modifyuserinfo]
+2021-06-10 18:50:00  [com.qmetry.qaf.automation.step.TestStepListener] (main:) Invoking Teststep: click on {loc} with arguments: [Modifylogout]
+2021-06-10 18:50:00  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing findElement element: By.xpath: //*[@id='user_info_acc']/span[1] parameters: {}
+2021-06-10 18:50:00  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing findElement parameters: {"value":"//*[@id='user_info_acc']/span[1]","using":"xpath"}
+2021-06-10 18:50:01  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: findElement[ param-1: {value=//*[@id='user_info_acc']/span[1], using=xpath}] Result: id: 0.2978904547289407-1
+2021-06-10 18:50:01  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: findElement[ param-1: By.xpath: //*[@id='user_info_acc']/span[1] param-2: {}] Result: OK
+2021-06-10 18:50:01  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing clickElement element: By.xpath: //*[@id='user_info_acc']/span[1] parameters: {"id":"0.2978904547289407-1"}
+2021-06-10 18:50:01  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: clickElement[ param-1: By.xpath: //*[@id='user_info_acc']/span[1] param-2: {"id":"0.2978904547289407-1"}] Result: clickElement:null
+2021-06-10 18:50:01  [com.qmetry.qaf.automation.step.TestStepListener] (main:) Completed Teststep: click on {loc} with arguments: [Modifylogout]
+2021-06-10 18:50:03  [qaf.Logs.Log] (main:) Personal details updated successfully
+2021-06-10 18:50:03  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing quit parameters: {}
+2021-06-10 18:50:03  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: quit[ param-1: {}] Result: null
+2021-06-10 18:50:03  [com.qmetry.qaf.automation.ui.UiDriverFactory] (main:) UI-driver tear down complete...
+2021-06-10 18:50:03  [com.qmetry.qaf.automation.ui.webdriver.ChromeDriverHelper] (Thread-0:) Stopping chrome driver service.
+2021-06-10 18:50:20  [com.qmetry.qaf.automation.util.ExcelUtil] (main:) Rows : 2
+2021-06-10 18:50:20  [com.qmetry.qaf.automation.util.ExcelUtil] (main:) Columns : 28
+2021-06-10 18:50:20  [com.qmetry.qaf.automation.step.TestStepListener] (main:) Invoking Teststep: get {url} with arguments: [/]
+2021-06-10 18:50:20  [com.qmetry.qaf.automation.core.QAFTestBase] (main:) Initializing Driver...browser_str:chromeDriver,base_url:https://demo.qloapps.com/,sel_server:localhost,port:4444
+2021-06-10 18:50:20  [com.qmetry.qaf.automation.ui.UiDriverFactory] (main:) Driver: chromeDriver
+2021-06-10 18:50:24  [com.qmetry.qaf.automation.core.QAFTestBase] (main:) driver init done
+2021-06-10 18:50:24  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing get parameters: {"url":"https://demo.qloapps.com/"}
+2021-06-10 18:50:31  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: get[ param-1: {url=https://demo.qloapps.com/}] Result: null
+2021-06-10 18:50:31  [com.qmetry.qaf.automation.step.TestStepListener] (main:) Completed Teststep: get {url} with arguments: [/]
+2021-06-10 18:50:31  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing maximizeCurrentWindow parameters: {}
+2021-06-10 18:50:31  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: maximizeCurrentWindow[ param-1: {}] Result: {width=1616, x=-8, y=-8, height=876}
+2021-06-10 18:50:31  [com.qmetry.qaf.automation.step.TestStepListener] (main:) Invoking Teststep: click on {loc} with arguments: [Menu]
+2021-06-10 18:50:31  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing findElement element: By.xpath: //*[@id='header']/div[3]/div/div/div[2]/button parameters: {}
+2021-06-10 18:50:31  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing findElement parameters: {"value":"//*[@id='header']/div[3]/div/div/div[2]/button","using":"xpath"}
+2021-06-10 18:50:31  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: findElement[ param-1: {value=//*[@id='header']/div[3]/div/div/div[2]/button, using=xpath}] Result: id: 0.408143856833292-1
+2021-06-10 18:50:31  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: findElement[ param-1: By.xpath: //*[@id='header']/div[3]/div/div/div[2]/button param-2: {}] Result: OK
+2021-06-10 18:50:31  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing clickElement element: By.xpath: //*[@id='header']/div[3]/div/div/div[2]/button parameters: {"id":"0.408143856833292-1"}
+2021-06-10 18:50:31  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: clickElement[ param-1: By.xpath: //*[@id='header']/div[3]/div/div/div[2]/button param-2: {"id":"0.408143856833292-1"}] Result: clickElement:null
+2021-06-10 18:50:31  [com.qmetry.qaf.automation.step.TestStepListener] (main:) Completed Teststep: click on {loc} with arguments: [Menu]
+2021-06-10 18:50:33  [com.qmetry.qaf.automation.step.TestStepListener] (main:) Invoking Teststep: click on {loc} with arguments: [Contact]
+2021-06-10 18:50:33  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing findElement element: By.xpath: //*[@id='menu_cont']/div/div/div[2]/ul[1]/li[8]/a parameters: {}
+2021-06-10 18:50:33  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing findElement parameters: {"value":"//*[@id='menu_cont']/div/div/div[2]/ul[1]/li[8]/a","using":"xpath"}
+2021-06-10 18:50:33  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: findElement[ param-1: {value=//*[@id='menu_cont']/div/div/div[2]/ul[1]/li[8]/a, using=xpath}] Result: id: 0.408143856833292-2
+2021-06-10 18:50:33  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: findElement[ param-1: By.xpath: //*[@id='menu_cont']/div/div/div[2]/ul[1]/li[8]/a param-2: {}] Result: OK
+2021-06-10 18:50:33  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing clickElement element: By.xpath: //*[@id='menu_cont']/div/div/div[2]/ul[1]/li[8]/a parameters: {"id":"0.408143856833292-2"}
+2021-06-10 18:50:36  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: clickElement[ param-1: By.xpath: //*[@id='menu_cont']/div/div/div[2]/ul[1]/li[8]/a param-2: {"id":"0.408143856833292-2"}] Result: clickElement:null
+2021-06-10 18:50:36  [com.qmetry.qaf.automation.step.TestStepListener] (main:) Completed Teststep: click on {loc} with arguments: [Contact]
+2021-06-10 18:50:38  [com.qmetry.qaf.automation.step.TestStepListener] (main:) Invoking Teststep: click on {loc} with arguments: [Subject]
+2021-06-10 18:50:38  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing findElement element: By.xpath: //*[@id='contact_type'] parameters: {}
+2021-06-10 18:50:38  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing findElement parameters: {"value":"//*[@id='contact_type']","using":"xpath"}
+2021-06-10 18:50:38  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: findElement[ param-1: {value=//*[@id='contact_type'], using=xpath}] Result: id: 0.6249354423676334-1
+2021-06-10 18:50:38  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: findElement[ param-1: By.xpath: //*[@id='contact_type'] param-2: {}] Result: OK
+2021-06-10 18:50:38  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing clickElement element: By.xpath: //*[@id='contact_type'] parameters: {"id":"0.6249354423676334-1"}
+2021-06-10 18:50:38  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: clickElement[ param-1: By.xpath: //*[@id='contact_type'] param-2: {"id":"0.6249354423676334-1"}] Result: clickElement:null
+2021-06-10 18:50:38  [com.qmetry.qaf.automation.step.TestStepListener] (main:) Completed Teststep: click on {loc} with arguments: [Subject]
+2021-06-10 18:50:40  [com.qmetry.qaf.automation.step.TestStepListener] (main:) Invoking Teststep: click on {loc} with arguments: [Custservice]
+2021-06-10 18:50:40  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing findElement element: By.xpath: //*[@id='center_column']/div/div[2]/div[2]/form/div[1]/div/div/ul/li[1] parameters: {}
+2021-06-10 18:50:40  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing findElement parameters: {"value":"//*[@id='center_column']/div/div[2]/div[2]/form/div[1]/div/div/ul/li[1]","using":"xpath"}
+2021-06-10 18:50:40  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: findElement[ param-1: {value=//*[@id='center_column']/div/div[2]/div[2]/form/div[1]/div/div/ul/li[1], using=xpath}] Result: id: 0.6249354423676334-2
+2021-06-10 18:50:40  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: findElement[ param-1: By.xpath: //*[@id='center_column']/div/div[2]/div[2]/form/div[1]/div/div/ul/li[1] param-2: {}] Result: OK
+2021-06-10 18:50:40  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing clickElement element: By.xpath: //*[@id='center_column']/div/div[2]/div[2]/form/div[1]/div/div/ul/li[1] parameters: {"id":"0.6249354423676334-2"}
+2021-06-10 18:50:40  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: clickElement[ param-1: By.xpath: //*[@id='center_column']/div/div[2]/div[2]/form/div[1]/div/div/ul/li[1] param-2: {"id":"0.6249354423676334-2"}] Result: clickElement:null
+2021-06-10 18:50:40  [com.qmetry.qaf.automation.step.TestStepListener] (main:) Completed Teststep: click on {loc} with arguments: [Custservice]
+2021-06-10 18:50:42  [com.qmetry.qaf.automation.step.TestStepListener] (main:) Invoking Teststep: sendKeys {text} into {loc} with arguments: [aarathinm@gmail.com, ValidEmail]
+2021-06-10 18:50:42  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing findElement element: By.xpath: //*[@id='email'] parameters: {}
+2021-06-10 18:50:42  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing findElement parameters: {"value":"//*[@id='email']","using":"xpath"}
+2021-06-10 18:50:42  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: findElement[ param-1: {value=//*[@id='email'], using=xpath}] Result: id: 0.6249354423676334-3
+2021-06-10 18:50:42  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: findElement[ param-1: By.xpath: //*[@id='email'] param-2: {}] Result: OK
+2021-06-10 18:50:42  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing sendKeysToElement element: By.xpath: //*[@id='email'] parameters: {"value":["aarathinm@gmail.com"],"id":"0.6249354423676334-3"}
+2021-06-10 18:50:42  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: sendKeysToElement[ param-1: By.xpath: //*[@id='email'] param-2: {"value":["aarathinm@gmail.com"],"id":"0.6249354423676334-3"}] Result: sendKeysToElement:null
+2021-06-10 18:50:42  [com.qmetry.qaf.automation.step.TestStepListener] (main:) Completed Teststep: sendKeys {text} into {loc} with arguments: [aarathinm@gmail.com, ValidEmail]
+2021-06-10 18:50:44  [com.qmetry.qaf.automation.step.TestStepListener] (main:) Invoking Teststep: sendKeys {text} into {loc} with arguments: [Test, Query]
+2021-06-10 18:50:44  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing findElement element: By.xpath: //*[@id='message'] parameters: {}
+2021-06-10 18:50:44  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing findElement parameters: {"value":"//*[@id='message']","using":"xpath"}
+2021-06-10 18:50:44  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: findElement[ param-1: {value=//*[@id='message'], using=xpath}] Result: id: 0.6249354423676334-5
+2021-06-10 18:50:44  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: findElement[ param-1: By.xpath: //*[@id='message'] param-2: {}] Result: OK
+2021-06-10 18:50:44  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing sendKeysToElement element: By.xpath: //*[@id='message'] parameters: {"value":["Test"],"id":"0.6249354423676334-5"}
+2021-06-10 18:50:44  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: sendKeysToElement[ param-1: By.xpath: //*[@id='message'] param-2: {"value":["Test"],"id":"0.6249354423676334-5"}] Result: sendKeysToElement:null
+2021-06-10 18:50:44  [com.qmetry.qaf.automation.step.TestStepListener] (main:) Completed Teststep: sendKeys {text} into {loc} with arguments: [Test, Query]
+2021-06-10 18:50:46  [com.qmetry.qaf.automation.step.TestStepListener] (main:) Invoking Teststep: click on {loc} with arguments: [Sendmessage]
+2021-06-10 18:50:46  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing findElement element: By.xpath: //*[@id='submitMessage']/span parameters: {}
+2021-06-10 18:50:46  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing findElement parameters: {"value":"//*[@id='submitMessage']/span","using":"xpath"}
+2021-06-10 18:50:46  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: findElement[ param-1: {value=//*[@id='submitMessage']/span, using=xpath}] Result: id: 0.6249354423676334-6
+2021-06-10 18:50:46  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: findElement[ param-1: By.xpath: //*[@id='submitMessage']/span param-2: {}] Result: OK
+2021-06-10 18:50:46  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing clickElement element: By.xpath: //*[@id='submitMessage']/span parameters: {"id":"0.6249354423676334-6"}
+2021-06-10 18:50:48  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: clickElement[ param-1: By.xpath: //*[@id='submitMessage']/span param-2: {"id":"0.6249354423676334-6"}] Result: clickElement:null
+2021-06-10 18:50:48  [com.qmetry.qaf.automation.step.TestStepListener] (main:) Completed Teststep: click on {loc} with arguments: [Sendmessage]
+2021-06-10 18:50:50  [qaf.Logs.Log] (main:) Contact details updated successfully
+2021-06-10 18:50:50  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) Executing quit parameters: {}
+2021-06-10 18:50:51  [com.qmetry.qaf.automation.ui.WebDriverCommandLogger] (main:) command: quit[ param-1: {}] Result: null
+2021-06-10 18:50:51  [com.qmetry.qaf.automation.ui.UiDriverFactory] (main:) UI-driver tear down complete...
+2021-06-10 18:50:51  [com.qmetry.qaf.automation.ui.webdriver.ChromeDriverHelper] (Thread-0:) Stopping chrome driver service.
